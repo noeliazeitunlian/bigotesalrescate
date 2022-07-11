@@ -80,6 +80,8 @@ body{
     width: 100%;
     display:flex;
     justify-content: center;
+    animation: tada;
+    animation-duration: 2s;
 }
 
 .tercer-titulo-razones{
@@ -95,7 +97,10 @@ body{
     display:flex;
     justify-content:right;
     width: fit-content;
+    animation: bounce; 
+    animation-duration: 2s; 
 }
+
 
 .imagen_gatitoadoptante{
     
@@ -170,6 +175,9 @@ footer h4{
     width:15%;
     display:flex;
     justify-content: center;
+    animation: flash; 
+    animation-duration: 2s;
+    
 }
 
 .listado_requisitos{
@@ -180,7 +188,7 @@ footer h4{
     background-color: #febaab;
     width:fit-content;
     height:fit-content;
-    padding:2%;
+    padding:1%;
     list-style-position: inside;
     text-align: center;
     margin-left:25%;
@@ -317,6 +325,9 @@ section form{
     width: 100%;
     display: flex;
     justify-content: center;
+    animation: wobble; 
+    animation-duration: 2s;
+
 
 }
 
@@ -509,6 +520,7 @@ section form{
     .tercer-titulo-razones{
         font-size: 1em;
         padding:18px;
+      
     }
 
     .listado_razones{
@@ -567,3 +579,4 @@ section form{
         background-color: #bee3ff;
     }
 }
+
