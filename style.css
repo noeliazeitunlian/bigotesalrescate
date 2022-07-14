@@ -46,6 +46,11 @@ body{
     border-width: 2px;
 }
 
+.card-body {
+    flex: 1 1 auto;
+    padding: 0.2rem 0.5rem;
+}
+
 .titulo-secundario {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: rgba(0, 0, 0, 0.875);
