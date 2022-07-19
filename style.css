@@ -3,6 +3,7 @@
     margin:0;
     padding: 0;
 }
+
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: #ffe6df;
@@ -16,6 +17,8 @@ body{
 .navbar-collapse{
     flex-grow: end;
 }
+
+
 .container-fluid{
     background-color: #e4b2f7;
     font-family: 'Bebas Neue', cursive;
@@ -25,56 +28,31 @@ body{
     background-color: #f5e1e2;
 }
 
-.tituloprincipal{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 1.8em;
-    letter-spacing: 1.6px;
-    color: white;
-}
-
-
-.imagen_gatitos{
-    height: 40%;
-    width: 40%;
-    margin: auto;
-    display: block;
-    border-radius: 10px;
-    margin-top:2%;
-    padding: 1%;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-}
-
 .card-body {
     flex: 1 1 auto;
     padding: 0.2rem 0.5rem;
 }
 
-.titulo-secundario {
+.h2{
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: rgba(0, 0, 0, 0.875);
-    letter-spacing:2.5px;
     font-size: 1.6em;
-    padding: 1rem;
-    background-color: #FFD583;
-    margin: auto;
-    height: 10px;
-    align-items: center;
-    position: sticky;
-    width: 100%;
+    letter-spacing:2.5px;
+    background-color:#ca668b;
+    width: 60%;
+    margin-top: 10px;
     display:flex;
-    justify-content: center;
-    
+    justify-content:center;
+    text-align: center;
+    margin-left: 25%;
 }
 
-.tercer-titulo-razones{
+.h3{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: rgba(0, 0, 0, 0.875);
+    background-color:#ca668b;
     font-size: 2em;
     letter-spacing:2.5px;
-    background-color:#FFD3F0;
-    padding: 28px;
+    padding: 20px;
     margin-left: auto;
     height: fit-content;
     display:flex;
@@ -88,6 +66,28 @@ body{
    margin: auto;
 }
 
+.list-group-item{
+    font-size: 1em;  
+    line-height: 1.9em;
+    background-color:#dc9ffa;
+    padding:1%;
+    list-style-position: inside;
+    text-align: right;
+    width: auto;
+
+}
+
+.img-fluid{
+    width:350px;
+    height:auto;
+    border-radius: 50%;
+    border-color:#dc9ffa;
+    border-width: 5px;
+    border-style: solid;
+    float:left;
+    margin-left:10%;
+   
+}
 .card-img-top{
     width: 50%;
     margin: auto;
@@ -102,12 +102,10 @@ body{
 .card{
     margin:auto;
     background-color: #f5e1e2;
-    
 }
 
 .btn{
-    background-color: hwb(331 28% 12% / 0.821) ;
-
+    background-color: hwb(331 28% 12% / 0.821);
 }
 
 .imagen_gatitoadoptante{
@@ -122,19 +120,7 @@ body{
     margin-left: 15%;
 }
 
-.listado_razones{
-    font-size: 1em;  
-    line-height: 1.9em;
-    background-color: #dc9ffa;
-    width:fit-content;
-    height:fit-content;
-    padding:2.5%;
-    list-style-position: inside;
-    text-align: right;
-    list-style-type:circle;
-    margin-left:58%;
 
-}
 
 footer{
     background:#E6EE9C;
@@ -161,13 +147,16 @@ footer h4{
     
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
 }
 
-.footer-ultimo{
+.row{
     text-align: center;
+    
+}
+.footer-ultimo{
+   
+    text-align: center;
+    margin-top: 2%;
 }
 
 
@@ -186,7 +175,6 @@ footer h4{
     justify-content: center;
     animation: flash; 
     animation-duration: 2s;
-    
 }
 
 .listado_requisitos{
@@ -203,14 +191,13 @@ footer h4{
     margin-left:25%;
 }
 
-
 .formulario{
     padding:1%;
     margin-left: 20%;
     margin-right: 20%;
     background-color: rgb(129, 129, 247);
-
 }
+
 section h6{
     font-family:'Yanone Kaffeesatz', sans-serif;
     font-size: 2rem;
@@ -223,7 +210,6 @@ section form{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
-
     width:80%;
     padding:1rem;
     max-width: 1000px;
@@ -234,7 +220,6 @@ section form{
 .campo{
     display: flex;
     flex-direction: column;
-
     width: 12rem;
     margin: 0.5rem 0.5rem;
 }
@@ -318,36 +303,14 @@ section form{
     width: 80%;
   }
 
-.subtitulo{
-    background-color: #e04891;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: rgba(0, 0, 0, 0.875);
-    letter-spacing:2.5px;
-    font-size: 1.6em;
-    padding: 1.5rem;
-    margin-top: 1rem;
- 
-    height: 10px;
-    align-items: center;
-    position: sticky;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-
-
-}
 
 .galeria_rescatista img{
     width: 100%;
     height: 250px;
-   
     border: 1px solid;
-
 }
 
 .galeria_rescatista p{
-    
         text-align: center;
 }
 
@@ -357,6 +320,7 @@ section form{
     position:relative;
     height:0;
 }
+
 .map-responsive iframe{
     left:0;
     top:0;
@@ -364,6 +328,7 @@ section form{
     width:50%;
     position:absolute;
 }
+
 .texto_rescatista{
     font-size: 90;
     text-align: center;
@@ -374,15 +339,14 @@ section form{
     letter-spacing: 1px;
 }
 
-
 .container_rescatista{
     display: flex;
     justify-content: center;
     width: 500px;
     height: 500px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
+
 .container_rescatista img{
     width: 250px;
     height: 250px;
@@ -429,4 +393,34 @@ section form{
 }
 
 
+@media(max-width:375px) {
+   
+    .h2{
+        font-size: 15px;
+       
+    }
+    .h3{
+        font-size: 16px;
+        letter-spacing: none;
+        margin: auto;
+        padding:none;
+    }
+    .img-fluid{
+        display: none;
+    }
 
+    .listado_requisitos{
+        font-size:12px;
+        margin-right:20%;
+    }
+
+    .list-group-item{
+        margin: auto;
+        font-size: 10px;
+        height:10%;
+        width: auto;
+    }
+    .container-footer{
+        background-color: aliceblue;
+    }
+}
