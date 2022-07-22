@@ -1,0 +1,86 @@
+.h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.6em;
+    letter-spacing:2.5px;
+    background-color:#ca668b;
+    width: 60%;
+    margin-top: 10px;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.h3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgba(0, 0, 0, 0.875);
+    background-color:#ca668b;
+    font-size: 2em;
+    letter-spacing:2.5px;
+    padding: 20px;
+    margin-left: auto;
+    height: fit-content;
+    display:flex;
+    justify-content:right;
+    width: fit-content;
+    animation: bounce; 
+    animation-duration: 2s; 
+}
+
+.col-4{
+    margin: auto;
+ }
+ 
+ .list-group-item{
+     font-size: 1em;  
+     line-height: 1.9em;
+     background-color:#dc9ffa;
+     padding:1%;
+     list-style-position: inside;
+     text-align: right;
+     width: auto;
+ 
+ }
+
+ .img-fluid{
+    width:350px;
+    height:auto;
+    border-radius: 50%;
+    border-color:#dc9ffa;
+    border-width: 5px;
+    border-style: solid;
+    float:left;
+    margin-left:10%;
+   
+}
+.card-img-top{
+    width: 50%;
+    margin: auto;
+    padding: auto;
+    margin-top: 3%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card{
+    margin:auto;
+    background-color: #f5e1e2;
+}
+
+.btn{
+    background-color: hwb(331 28% 12% / 0.821);
+}
+
+.imagen_gatitoadoptante{
+    
+    width:350px;
+    height:auto;
+    border-radius: 50%;
+    border-color:#dc9ffa;
+    border-width: 5px;
+    border-style: solid;
+    float:left;
+    margin-left: 15%;
+}
