@@ -177,25 +177,10 @@ footer h4{
     animation-duration: 2s;
 }
 
-.listado_requisitos{
-    font-family:'Yanone Kaffeesatz', sans-serif;
-    letter-spacing: 1.8px;
-    font-size: 1.5em;  
-    line-height: 1.9em;
-    background-color: #febaab;
-    width:fit-content;
-    height:fit-content;
-    padding:1%;
-    list-style-position: inside;
-    text-align: center;
-    margin-left:25%;
-}
-
 .formulario{
     padding:1%;
     margin-left: 20%;
-    margin-right: 20%;
-    background-color: rgb(129, 129, 247);
+    margin-right: 20%
 }
 
 section h6{
@@ -379,19 +364,6 @@ section form{
     justify-content: center;
     font-weight: bold;
 }
-
-.listado_denuncia{
-    font-size: 1em;  
-    line-height: 1.9em;
-    background-color: #f9d0fc;
-    width:fit-content;
-    height:fit-content;
-    padding:2%;
-    list-style-position: inside;
-    text-align: center;
-    margin-left:10%;
-}
-
 
 @media(max-width:375px) {
    

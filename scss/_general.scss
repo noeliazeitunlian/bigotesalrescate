@@ -8,9 +8,9 @@ body{
 }
 
 .formulario{
-    background-color:$color-secundario;
+    background-color:map-get($colores,"color-terciario");
 }
 
 .h2{
-    background-color: $color-principal;
+    background-color: map-get($colores,"color-secundario");
 }
