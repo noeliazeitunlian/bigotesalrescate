@@ -1,0 +1,14 @@
+%seccion{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: map-get($colores,"color-texto");
+    font-size: 1.6em;
+    letter-spacing:2.5px;
+    padding: 10px;
+    margin-right:auto;
+    height:min-content;
+    width:15%;
+    display:flex;
+    justify-content: center;
+    animation: flash; 
+    animation-duration: 2s;
+}

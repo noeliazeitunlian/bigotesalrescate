@@ -1,0 +1,11 @@
+@import './mixins';
+@import './extends';
+@import './base/variables';
+
+.listado-comoadoptar{
+    @include listado_requisitos(rgb(249, 183, 183),center,1%,1.5em,25%);
+}
+
+.listado-infoutil{
+    @include listado_requisitos(rgb(183, 203, 255),left,2%,1.3em,1%);
+}

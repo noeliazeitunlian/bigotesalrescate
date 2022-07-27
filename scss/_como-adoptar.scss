@@ -1,37 +1,7 @@
-
+@import './mixins';
 *{
     margin:0;
     padding: 0;
-}
-
-.h2_requisitos{
-    background-color:map-get($colores,"color-secundario");
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: map-get($colores,"color-texto");
-    font-size: 1.6em;
-    letter-spacing:2.5px;
-    padding: 10px;
-    margin-right:auto;
-    height:min-content;
-    width:15%;
-    display:flex;
-    justify-content: center;
-    animation: flash; 
-    animation-duration: 2s;
-}
-
-.listado_requisitos{
-    font-family:'Yanone Kaffeesatz', sans-serif;
-    letter-spacing: 1.8px;
-    font-size: 1.5em;  
-    line-height: 1.9em;
-    background-color: #febaab;
-    width:fit-content;
-    height:fit-content;
-    padding:1%;
-    list-style-position: inside;
-    text-align: center;
-    margin-left:25%;
 }
 
 
@@ -87,8 +57,6 @@ section form{
      border:1px solid;
      border-radius: 2.5px;
 }
-
-
 
 .opciones label{
     font-size: 0.9rem;
