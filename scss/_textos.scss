@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import './mixins';
 @import './extends';
 @import './base/variables';
@@ -48,54 +47,3 @@
     @extend %seccion;
     background-color:rgb(229, 123, 255);
 }
-=======
-@import './mixins';
-@import './extends';
-@import './base/variables';
-
-.h3-comoadoptar{
-    @include titulo-h3(rgb(251, 185, 99),1.7em);
-}
-
-.h3-index{
-    @include titulo-h3(rgb(196, 30, 171),2em);
-}
-
-
-.h2-index{
-    @include titulo-h2(rgb(251, 185, 99),1.6em);
-}
-
-.h2-rescatados{
-    @include titulo-h2(rgb(251, 73, 183),2em);
-}
-
-.h2-quienessomos{
-    @include titulo-h2(rgb(146, 168, 255),2em);
-}
-
-.seccion-infoutil{
-    @extend %seccion;
-    background-color:rgb(183, 203, 255);
-}
-
-.seccion-inicio{
-    @extend %seccion;
-    background-color: rgb(221, 255, 143);
-}
-
-.seccion-comoadoptar{
-    @extend %seccion;
-    background-color:rgb(196, 30, 171);
-}
-
-.seccion-quienessomos{
-    @extend %seccion;
-    background-color:rgb(251, 185, 99);
-}
-
-.seccion-rescatados{
-    @extend %seccion;
-    background-color:rgb(229, 123, 255);
-}
->>>>>>> c23e97f67df293a53e04352c88f71778f3e752b8
