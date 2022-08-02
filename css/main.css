@@ -11,7 +11,7 @@ body {
   padding: 0.2rem 0.5rem; }
 
 .formulario {
-  background-color: #c41eab; }
+  background-color: #dd6a98; }
 
 .h2 {
   background-color: #fbb963; }
@@ -97,7 +97,7 @@ body {
     height: 10%;
     width: auto; }
   .container-footer {
-    background-color: aliceblue; } }
+    background-color: #dd6a98; } }
 
 .col-4 {
   margin: auto; }
@@ -105,7 +105,7 @@ body {
 .list-group-item {
   font-size: 1em;
   line-height: 1.9em;
-  background-color: #e57bff;
+  background-color: #e4b2f7;
   padding: 1%;
   list-style-position: inside;
   text-align: right;
@@ -115,7 +115,7 @@ body {
   width: 350px;
   height: auto;
   border-radius: 50%;
-  border-color: #e57bff;
+  border-color: #e4b2f7;
   border-width: 5px;
   border-style: solid;
   float: left;
@@ -135,7 +135,7 @@ body {
   background-color: #f5e1e2; }
 
 .btn {
-  background-color: #c41eab; }
+  background-color: #dd6a98; }
 
 .imagen_gatitoadoptante {
   width: 350px;
@@ -217,7 +217,7 @@ section form {
   display: grid;
   align-items: center;
   justify-content: center;
-  background-color: #e57bff;
+  background-color: #e4b2f7;
   border-radius: 4px;
   transition: transform 0.3s ease-in-out;
   background-position: center;
@@ -316,7 +316,7 @@ footer h4 {
   animation-duration: 2s; }
 
 .h3-index {
-  background-color: #c41eab;
+  background-color: #dd6a98;
   font-size: 2em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: rgba(0, 0, 0, 0.875);
