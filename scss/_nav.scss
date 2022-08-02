@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .logo{
     width: 75px;
     height: 75px;
@@ -15,4 +16,23 @@
 }
 .nav-link:hover{
     background-color: #f5e1e2;
+=======
+.logo{
+    width: 75px;
+    height: 75px;
+} 
+
+.navbar-collapse{
+    flex-grow: end;
+}
+
+
+.container-fluid{
+    background-color: #e4b2f7;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.6em;
+}
+.nav-link:hover{
+    background-color: #f5e1e2;
+>>>>>>> develope
 }
