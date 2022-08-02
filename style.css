@@ -1,95 +1,111 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: #ffe6df;
 }   
 
-.logo{
-    width: 100px;
+ .logo{
+    width: 75px;
     height: 75px;
+} 
+
+.navbar-collapse{
+    flex-grow: end;
 }
 
-.tituloprincipal{
+
+.container-fluid{
+    background-color: #e4b2f7;
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.8em;
-    letter-spacing: 1.6px;
-    color: white;
-}
-.menu_lista{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1.5em;
-    padding: 1rem;
-    background-color: #DF99F8;
-    margin: auto;
-    height: 50px;
-    align-items: center;
-
-    position: sticky;
-    top: 0;
-
-    width: 100%;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+}
+.nav-link:hover{
+    background-color: #f5e1e2;
 }
 
-.menu_lista li a{
-    text-decoration: none;
-    color: black;
-    padding: 20px;
-    display: block;
+.card-body {
+    flex: 1 1 auto;
+    padding: 0.2rem 0.5rem;
 }
 
-.menu_lista li{
-    display: inline-block;
-    text-align: center;
-}
-
-.menu_lista li a:hover{
-    background: #f3b1a2;
-}
-
-.imagen_gatitos{
-    height: 40%;
-    width: 40%;
-    margin: auto;
-    display: block;
-    border-radius: 10px;
-    margin-top:2%;
-    padding: 1%;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-}
-
-.titulo-secundario {
+.h2{
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: rgba(0, 0, 0, 0.875);
-    letter-spacing:2.5px;
     font-size: 1.6em;
-    padding: 1rem;
-    background-color: #FFD583;
-    margin: auto;
-    height: 10px;
-    align-items: center;
-    position: sticky;
-    width: 100%;
+    letter-spacing:2.5px;
+    background-color:#ca668b;
+    width: 60%;
+    margin-top: 10px;
     display:flex;
-    justify-content: center;
+    justify-content:center;
+    text-align: center;
+    margin-left: 25%;
 }
 
-.tercer-titulo-razones{
+.h3{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: rgba(0, 0, 0, 0.875);
+    background-color:#ca668b;
     font-size: 2em;
     letter-spacing:2.5px;
-    background-color:#FFD3F0;
-    padding: 28px;
+    padding: 20px;
     margin-left: auto;
     height: fit-content;
-   /* width: 90%; */
     display:flex;
     justify-content:right;
     width: fit-content;
+    animation: bounce; 
+    animation-duration: 2s; 
+}
+
+.col-4{
+   margin: auto;
+}
+
+.list-group-item{
+    font-size: 1em;  
+    line-height: 1.9em;
+    background-color:#dc9ffa;
+    padding:1%;
+    list-style-position: inside;
+    text-align: right;
+    width: auto;
+
+}
+
+.img-fluid{
+    width:350px;
+    height:auto;
+    border-radius: 50%;
+    border-color:#dc9ffa;
+    border-width: 5px;
+    border-style: solid;
+    float:left;
+    margin-left:10%;
+   
+}
+.card-img-top{
+    width: 50%;
+    margin: auto;
+    padding: auto;
+    margin-top: 3%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card{
+    margin:auto;
+    background-color: #f5e1e2;
+}
+
+.btn{
+    background-color: hwb(331 28% 12% / 0.821);
 }
 
 .imagen_gatitoadoptante{
@@ -104,23 +120,12 @@ body{
     margin-left: 15%;
 }
 
-.listado_razones{
-    font-size: 1em;  
-    line-height: 1.9em;
-    background-color: #dc9ffa;
-    width:fit-content;
-    height:fit-content;
-    padding:2.5%;
-    list-style-position: inside;
-    text-align: right;
-    list-style-type:circle;
-    margin-left:58%;
 
-}
 
 footer{
     background:#E6EE9C;
     min-height: 100%;
+    margin-top: 1rem;
 }
 
 footer h4{
@@ -142,13 +147,16 @@ footer h4{
     
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
 }
 
-.footer-ultimo{
+.row{
     text-align: center;
+    
+}
+.footer-ultimo{
+   
+    text-align: center;
+    margin-top: 2%;
 }
 
 
@@ -165,6 +173,8 @@ footer h4{
     width:15%;
     display:flex;
     justify-content: center;
+    animation: flash; 
+    animation-duration: 2s;
 }
 
 .listado_requisitos{
@@ -175,20 +185,18 @@ footer h4{
     background-color: #febaab;
     width:fit-content;
     height:fit-content;
-    padding:2%;
+    padding:1%;
     list-style-position: inside;
     text-align: center;
     margin-left:25%;
 }
 
-
-#formulario{
+.formulario{
     padding:1%;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: rgb(129, 129, 247);
-
 }
+
 section h6{
     font-family:'Yanone Kaffeesatz', sans-serif;
     font-size: 2rem;
@@ -201,7 +209,6 @@ section form{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
-
     width:80%;
     padding:1rem;
     max-width: 1000px;
@@ -212,7 +219,6 @@ section form{
 .campo{
     display: flex;
     flex-direction: column;
-
     width: 12rem;
     margin: 0.5rem 0.5rem;
 }
@@ -295,66 +301,51 @@ section form{
     height: 200px;
     width: 80%;
   }
-  
- 
 
-.subtitulo{
-    background-color: #fd858b;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: rgba(0, 0, 0, 0.875);
-    letter-spacing:2.5px;
-    font-size: 1.6em;
-    padding: 1rem;
-
-    height: 10px;
-    align-items: center;
-    position: sticky;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-}
 
 .galeria_rescatista img{
     width: 100%;
     height: 250px;
-   
     border: 1px solid;
-
 }
 
 .galeria_rescatista p{
-    
-        background-color: #f7b0ffc5;
-        width: 75%;
         text-align: center;
 }
 
-.mapa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:50%;
+    position:absolute;
 }
 
 .texto_rescatista{
-    font-size: 100;
+    font-size: 90;
     text-align: center;
     justify-content: center;
     margin:0;
-    padding: 0;
+    padding:auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
 }
-
 
 .container_rescatista{
     display: flex;
     justify-content: center;
     width: 500px;
     height: 500px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
+
 .container_rescatista img{
     width: 250px;
     height: 250px;
@@ -375,10 +366,12 @@ section form{
     justify-content: center;
 }
 
-
+.list-group{
+    margin-top: 2%;
+}
 
 .resaltar{
-
+    margin-top: 2%;
     margin-left: 30%;
     margin-right: 25%;
     text-align: center;
@@ -398,167 +391,31 @@ section form{
     margin-left:10%;
 }
 
-@media screen and (max-width: 320px){
-    .grid-container {
-        width: 100%;
-        display:grid;
-        margin:auto;
-        grid-template-columns: repeat(1);
-        gap: 10px;
-        padding:0;
-        grid-auto-flow: dense;
-     }
 
-     .grid-item {
-        display: grid;
-        align-items: center;
-        justify-content: center;
-      
-        background-color: #e4b2f7;
-        border-radius: 4px;
-        transition: transform 0.3s ease-in-out;
-    
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-
-    .imagen-galeria{
-        object-fit:cover;
-        height: 200px;
-        width: 100%;
-      }
-
-    
-    footer{
-        background-color:rosybrown;
-        width:auto;
-        padding:auto;
+@media(max-width:375px) {
+   
+    .h3{
+        font-size: 16px;
+        letter-spacing: none;
+        margin: auto;
+        padding:none;
     }
-
-
-    footer h4{
-        font-size: 20px;
-    }
-
-    .container-footer{
-        display: grid;
-        margin: 0;
-        font-size: 12px;
-        
-        grid-template-columns: repeat(1, 1fr);
-        text-align: justify;
-        
-    }
-    
-    .logo-footer{
-        width: 15px;
-        height: 15px;
-    }
-    .footer-ultimo{
-        font-size: 13px;
-    }
-    
-    .subtitulo{
-        background-color: #008f6d;
-        font-size:12px;
-        text-align: center;
-    
-        padding:1%;
-    
-    }
-
-    .logo{
+    .img-fluid{
         display: none;
-
-    }
-    .tituloprincipal{
-        font-size: 10px;
-        padding: 0%;
-    }
-    .menu_lista{
-        font-size: 10px;
-        padding:0%;
-        padding-right: 0%;
-    }
-
-    .titulo-secundario{
-        font-size:1.1em;
-        padding:1%;
-    }
-
-    .menu_lista li a{
-        padding: 0%;
-    }
-
-    .titulo-secundario{
-        font-size: 12px;
-        padding: 1%;
-        background-color: #fc7474;
-    }
-    
-    .imagen_gatitoadoptante{
-        width: 150px;
-
-    }
-
-    .tercer-titulo-razones{
-        font-size: 1em;
-        padding:18px;
-    }
-
-    .listado_razones{
-        font-size: 10px;
-    }
-
-    .h2_requisitos{
-        font-size: 10px;
-        
-    }
-
-    .listado_denuncia{
-        font-size: 12px;
     }
 
     .listado_requisitos{
-        padding: 0%;
-        font-size: 12px;
+        font-size:12px;
+        margin-right:20%;
     }
 
-    .campo input{
+    .list-group-item{
+        margin: auto;
         font-size: 10px;
+        height:10%;
+        width: auto;
     }
-
-    .texto_rescatista{
-        font-size: 10px;
-    }
-
-    .galeria_rescatista img{
-        width: 100%;
-        height: 150px;
-       
-        border: 1px solid;
-    
-    }
-    
-}
-
-@media screen and (min-width:768px){
-
-    .menu_lista{
-        font-size: 1em;
-        background-color: #b35692;
-    }
-
-    .logo{
-        width: 70px;
-        height: 60px;
-    }
-
-    .subtitulo{
-        background-color:#febaab
-    }
-
-    footer{
-        background-color: #bee3ff;
+    .container-footer{
+        background-color: aliceblue;
     }
 }
