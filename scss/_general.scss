@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 *{
     margin:0;
@@ -124,5 +125,134 @@ body{
     }
     .container-footer{
         background-color: #dd6a98;
+    }
+}
+=======
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #ffe6df;
+}   
+
+ 
+.card-body {
+    flex: 1 1 auto;
+    padding: 0.2rem 0.5rem;
+}
+
+.formulario{
+    background-color:map-get($colores,"color-terciario");
+}
+
+.h2{
+    background-color: map-get($colores,"color-secundario");
+}
+
+.galeria_rescatista img{
+    width: 100%;
+    height: 250px;
+    border: 1px solid;
+}
+
+.galeria_rescatista p{
+        text-align: center;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:50%;
+    position:absolute;
+}
+
+.texto_rescatista{
+    font-size: 90;
+    text-align: center;
+    justify-content: center;
+    margin:0;
+    padding:auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+.container_rescatista{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;    
+}
+
+.container_rescatista img{
+    width: 250px;
+    height: 250px;
+}
+
+.titulo_ley{
+    color: #008f6d;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    justify-content: center;
+}
+
+.list-group{
+    margin-top: 2%;
+}
+
+.resaltar{
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 25%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+@media(max-width:375px) {
+   
+    .h3{
+        font-size: 16px;
+        letter-spacing: none;
+        margin: auto;
+        padding:none;
+    }
+    .img-fluid{
+        display: none;
+    }
+
+    .listado_requisitos{
+        font-size:12px;
+        margin-right:20%;
+    }
+
+    .list-group-item{
+        margin: auto;
+        font-size: 10px;
+        height:10%;
+        width: auto;
+    }
+    .container-footer{
+        background-color: aliceblue;
     }
 }
