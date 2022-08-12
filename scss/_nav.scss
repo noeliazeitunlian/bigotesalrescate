@@ -9,10 +9,10 @@
 
 
 .container-fluid{
-    background-color: #e4b2f7;
+    background-color:map-get($colores,"color-principal");
     font-family: 'Bebas Neue', cursive;
     font-size: 1.5em;
 }
 .nav-link:hover{
-    background-color: #f5e1e2;
+    background-color:#bf9780;
 }

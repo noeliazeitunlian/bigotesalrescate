@@ -7,12 +7,12 @@
 }
 
 .h3-index{
-    @include titulo-h3(rgb(196, 30, 171),2em);
+    @include titulo-h3(#e8c39e,2em);
 }
 
 
 .h2-index{
-    @include titulo-h2(rgb(251, 185, 99),1.6em);
+    @include titulo-h2(#c0a0c3,1.6em);
 }
 
 .h2-rescatados{
@@ -30,7 +30,7 @@
 
 .seccion-inicio{
     @extend %seccion;
-    background-color: rgb(221, 255, 143);
+    background-color: #e3b1c8;
 }
 
 .seccion-comoadoptar{

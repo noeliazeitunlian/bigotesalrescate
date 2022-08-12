@@ -8,39 +8,25 @@
  .list-group-item{
      font-size: 1em;  
      line-height: 1.9em;
-     background-color:map-get($colores,"color-principal");
+     background-color:map-get($colores,"color-terciario");
      padding:1%;
      list-style-position: inside;
      text-align: right;
      width: auto;
- 
  }
 
  .img-fluid{
     width:350px;
     height:auto;
-    border-radius: 50%;
-    border-color:map-get($colores,"color-principal");
-    border-width: 5px;
-    border-style: solid;
     float:left;
     margin-left:10%;
-   
-}
-.card-img-top{
-    width: 50%;
-    margin: auto;
-    padding: auto;
-    margin-top: 3%;
-}
 
-.card-title{
-    text-align: center;
-}
-
-.card{
-    margin:auto;
-    background-color: #f5e1e2;
+    border:{
+        radius: 50%;
+        color:map-get($colores,"color-principal");
+        width: 5px;
+        style: solid;
+    }
 }
 
 .btn{
@@ -48,13 +34,15 @@
 }
 
 .imagen_gatitoadoptante{
-    
     width:350px;
     height:auto;
-    border-radius: 50%;
-    border-color:map-get($colores,"color-quinto");
-    border-width: 5px;
-    border-style: solid;
     float:left;
     margin-left: 15%;
+    
+    border:{
+        radius: 50%;
+        color:map-get($colores,"color-quinto");
+        width: 5px;
+        style: solid;
+    }
 }

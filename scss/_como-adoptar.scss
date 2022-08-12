@@ -1,10 +1,4 @@
 @import './mixins';
-*{
-    margin:0;
-    padding: 0;
-}
-
-
 .formulario{
     padding:1%;
     margin-left: 20%;
@@ -15,107 +9,52 @@
         width: 20rem;
         margin: 0.75rem 0;
     }
-    
 }
 
-section h6{
-    font-family:'Yanone Kaffeesatz', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    text-transform: uppercase;
-    padding:auto;
+section{
+    h6{
+        padding:auto;
+        font:{
+            family:'Yanone Kaffeesatz', sans-serif;
+            size: 2rem;
+        }
+        text:{
+            align: center;
+            transform: uppercase;
+        }
+    }
 }
 
-section form{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    width:80%;
-    padding:1rem;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.campo{
-    display: flex;
-    flex-direction: column;
-    width: 12rem;
-    margin: 0.5rem 0.5rem;
-}
-
-.campo label{
+.opciones{
+    label{
     font-size: 0.9rem;
     margin-bottom: 0.2px;
-}
+    }
 
-.campo input{
-    font-size: 1.1rem;
-    height: 2rem;
-    padding-left: 0.4rem;
+    div{
+        display:flex;
+        justify-content: flex-start;
+        padding-left: 0.2rem;
 
-     border:1px solid;
-     border-radius: 2.5px;
-}
-
-.opciones label{
-    font-size: 0.9rem;
-    margin-bottom: 0.2px;
-}
-
-.opciones div{
-    display:flex;
-    justify-content: flex-start;
-    padding-left: 0.2rem;
-}
-
-.opciones div input{
-    cursor: pointer;
-}
-
-.enviar{
-    padding: 0.5rem 1rem;
-    border: 2px solid black;
-}
-
-.enviar button{
-    font-size: 2.3rem;
+        input{
+            cursor: pointer;
+        }
+    }
 }
 
 .grid-item {
     display: grid;
     align-items: center;
     justify-content: center;
-  
-    background-color: map-get($colores,"color-principal");
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
-
-    background-position: center;
-    background-repeat: no-repeat;
+    background:{
+        color: map-get($colores,"color-principal");
+        position: center;
+        repeat: no-repeat;
+    }
+        &:hover {
+            filter: opacity(0.9);
+            transform: scale(1.04);
+          }
   }
-  
-  .grid-item:hover {
-    filter: opacity(0.9);
-    transform: scale(1.04);
-  }
-  
-  .grid-container {
-    width: 100%;
-    display:grid;
-    margin: auto;
-    grid-template-columns: repeat(auto-fill, minmax(250px,auto));
-    grid-auto-rows: minmax(150px, auto);
-    gap: 20px;
-    padding: 20px;
-    grid-auto-flow: dense;
- }
-
-  .imagen-galeria{
-    object-fit:cover;
-    height: 200px;
-    width: 80%;
-  }
-
-
-

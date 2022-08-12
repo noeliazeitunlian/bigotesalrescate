@@ -1,8 +1,8 @@
 %seccion{
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: map-get($colores,"color-texto");
     font-size: 1.6em;
     letter-spacing:2.5px;
+    color: map-get($colores,"color-texto");
     padding: 10px;
     margin-right:auto;
     height:min-content;

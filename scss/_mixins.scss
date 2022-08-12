@@ -10,8 +10,6 @@
         display:flex;
         justify-content:right;
         width: fit-content;
-        animation: bounce; 
-        animation-duration: 2s; 
 }
 
 @mixin titulo-h2($bgColor,$fontSize){
