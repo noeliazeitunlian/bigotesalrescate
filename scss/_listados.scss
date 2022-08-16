@@ -7,5 +7,14 @@
 }
 
 .listado-infoutil{
-    @include listado_requisitos(rgb(183, 203, 255),left,2%,1.3em,1%);
+    @include listado_requisitos(#c0a0c3,left,2%,1.3em,1%);
+
+    @media(max-width:375px){
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin: auto;
+        text-align: left;
+        margin-top: 5px;
+        background-color: #c0a0c3;
+    }
 }

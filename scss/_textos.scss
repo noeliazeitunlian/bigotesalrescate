@@ -8,15 +8,25 @@
 
 .h3-index{
     @include titulo-h3(#e8c39e,2em);
+
+    @media (max-width:375px) {
+        margin:auto;
+        font-size: 1em;
+        padding: 2%;
+    }
 }
 
 
 .h2-index{
     @include titulo-h2(#c0a0c3,1.6em);
+    @media (max-width:375px) {
+        font-size: 1em;
+        padding: 1%;
+    }
 }
 
 .h2-rescatados{
-    @include titulo-h2(rgb(251, 73, 183),2em);
+    @include titulo-h2(#e3b1c8,1.5em);
 }
 
 .h2-quienessomos{
@@ -25,7 +35,7 @@
 
 .seccion-infoutil{
     @extend %seccion;
-    background-color:rgb(183, 203, 255);
+    background-color:#e3b1c8;
 }
 
 .seccion-inicio{
@@ -35,15 +45,15 @@
 
 .seccion-comoadoptar{
     @extend %seccion;
-    background-color:rgb(196, 30, 171);
+    background-color:#e3b1c8;
 }
 
 .seccion-quienessomos{
     @extend %seccion;
-    background-color:rgb(251, 185, 99);
+    background-color:#e3b1c8;
 }
 
 .seccion-rescatados{
     @extend %seccion;
-    background-color:rgb(229, 123, 255);
+    background-color:#c0a0c3;
 }

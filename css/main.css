@@ -1,10 +1,25 @@
+.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 2.5px;
+  color: rgba(0, 0, 0, 0.799);
+  padding: 15px;
+  margin-right: auto;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  animation: flash;
+  animation-duration: 2s; }
+
 * {
   margin: 0;
   padding: 0; }
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background: #ffe6df; }
+  background: #ffe6df;
+  overflow-x: hidden; }
 
 .card-body {
   flex: 1 1 auto;
@@ -14,7 +29,7 @@ body {
   background-color: #e3b1c8; }
 
 .h2 {
-  background-color: #fbb963; }
+  background-color: #c0a0c3 251, 185, 99; }
 
 .galeria_rescatista img {
   width: 100%;
@@ -81,26 +96,48 @@ body {
   font-weight: bold; }
 
 @media (max-width: 375px) {
-  .h3 {
-    font-size: 16px;
-    letter-spacing: none;
-    margin: auto;
-    padding: none; }
-  .img-fluid {
+  .body {
+    overflow-x: hidden; }
+  .seccion-incio {
+    display: none;
+    margin: auto; }
+  .img-fluid-index {
     display: none; }
   .listado_requisitos {
     font-size: 12px;
     margin-right: 20%; }
+  .list-group {
+    height: 70%;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center; }
   .list-group-item {
-    margin: auto;
-    font-size: 10px;
-    height: 10%;
+    height: 50%;
     width: auto; }
   .container-footer {
-    background-color: aliceblue; } }
+    background-color: #ecd6c0; }
+  .row {
+    font-size: 12px;
+    overflow-x: hidden;
+    margin-left: 20%;
+    text-align: center;
+    width: 50%;
+    height: 50%; }
+  .col-4 {
+    margin: auto;
+    width: 60%; }
+  .titulo_ley {
+    font-size: 1.2em; }
+  .texto_rescatista {
+    font-size: 13px; }
+  .resaltar {
+    font-size: 15px; } }
 
 .col-4 {
-  margin: auto; }
+  margin: auto;
+  width: 30%; }
 
 .list-group-item {
   font-size: 1em;
@@ -111,7 +148,7 @@ body {
   text-align: right;
   width: auto; }
 
-.img-fluid {
+.img-fluid-index {
   width: 350px;
   height: auto;
   float: left;
@@ -176,6 +213,7 @@ section h6 {
 
 footer {
   background: #ecd6c0;
+  margin: auto;
   min-height: 100%;
   margin-top: 1rem; }
   footer h4 {
@@ -212,13 +250,13 @@ footer {
 
 .seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.6em;
+  font-size: 1.2em;
   letter-spacing: 2.5px;
   color: rgba(0, 0, 0, 0.799);
-  padding: 10px;
+  padding: 15px;
   margin-right: auto;
-  height: min-content;
-  width: 15%;
+  height: fit-content;
+  width: fit-content;
   display: flex;
   justify-content: center;
   animation: flash;
@@ -249,6 +287,11 @@ footer {
   display: flex;
   justify-content: right;
   width: fit-content; }
+  @media (max-width: 375px) {
+    .h3-index {
+      margin: auto;
+      font-size: 1em;
+      padding: 2%; } }
 
 .h2-index {
   background-color: #c0a0c3;
@@ -261,10 +304,14 @@ footer {
   justify-content: center;
   text-align: center;
   margin-left: 25%; }
+  @media (max-width: 375px) {
+    .h2-index {
+      font-size: 1em;
+      padding: 1%; } }
 
 .h2-rescatados {
-  background-color: #fb49b7;
-  font-size: 2em;
+  background-color: #e3b1c8;
+  font-size: 1.5em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   letter-spacing: 2.5px;
   width: 60%;
@@ -287,29 +334,29 @@ footer {
   margin-left: 25%; }
 
 .seccion-infoutil {
-  background-color: #b7cbff; }
+  background-color: #e3b1c8; }
 
 .seccion-inicio {
   background-color: #e3b1c8; }
 
 .seccion-comoadoptar {
-  background-color: #c41eab; }
+  background-color: #e3b1c8; }
 
 .seccion-quienessomos {
-  background-color: #fbb963; }
+  background-color: #e3b1c8; }
 
 .seccion-rescatados {
-  background-color: #e57bff; }
+  background-color: #c0a0c3; }
 
 .seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.6em;
+  font-size: 1.2em;
   letter-spacing: 2.5px;
   color: rgba(0, 0, 0, 0.799);
-  padding: 10px;
+  padding: 15px;
   margin-right: auto;
-  height: min-content;
-  width: 15%;
+  height: fit-content;
+  width: fit-content;
   display: flex;
   justify-content: center;
   animation: flash;
@@ -317,13 +364,13 @@ footer {
 
 .seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.6em;
+  font-size: 1.2em;
   letter-spacing: 2.5px;
   color: rgba(0, 0, 0, 0.799);
-  padding: 10px;
+  padding: 15px;
   margin-right: auto;
-  height: min-content;
-  width: 15%;
+  height: fit-content;
+  width: fit-content;
   display: flex;
   justify-content: center;
   animation: flash;
@@ -340,10 +387,11 @@ footer {
   width: fit-content;
   height: fit-content;
   list-style-position: inside;
+  margin-top: 10px;
   margin-left: 25%; }
 
 .listado-infoutil {
-  background-color: #b7cbff;
+  background-color: #c0a0c3;
   font-size: 1.3em;
   padding: 2%;
   text-align: left;
@@ -353,17 +401,26 @@ footer {
   width: fit-content;
   height: fit-content;
   list-style-position: inside;
+  margin-top: 10px;
   margin-left: 1%; }
+  @media (max-width: 375px) {
+    .listado-infoutil {
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin: auto;
+      text-align: left;
+      margin-top: 5px;
+      background-color: #c0a0c3; } }
 
 .seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.6em;
+  font-size: 1.2em;
   letter-spacing: 2.5px;
   color: rgba(0, 0, 0, 0.799);
-  padding: 10px;
+  padding: 15px;
   margin-right: auto;
-  height: min-content;
-  width: 15%;
+  height: fit-content;
+  width: fit-content;
   display: flex;
   justify-content: center;
   animation: flash;
@@ -380,4 +437,4 @@ footer {
 
 .card {
   margin: auto;
-  background-color: #ffcfd1; }
+  background-color: #fbe4ce; }

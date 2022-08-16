@@ -1,11 +1,12 @@
 @import './mixins';
 
 
-.col-4{
+.col-4 /*imagen carrusel*/{
     margin: auto;
+    width: 30%;
  }
  
- .list-group-item{
+ .list-group-item /*listado*/{
      font-size: 1em;  
      line-height: 1.9em;
      background-color:map-get($colores,"color-terciario");
@@ -15,7 +16,7 @@
      width: auto;
  }
 
- .img-fluid{
+ .img-fluid-index{
     width:350px;
     height:auto;
     float:left;
