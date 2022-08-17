@@ -3,7 +3,13 @@
 @import './base/variables';
 
 .h3-comoadoptar{
-    @include titulo-h3(rgb(251, 185, 99),1.7em);
+    @include titulo-h3(#ccaa88,1.7em);
+    @media (max-width:768px) {
+        margin:auto;
+        font-size: 1em;
+        padding: 2%;
+        margin-top: 10px;
+    }
 }
 
 .h3-index{
@@ -26,11 +32,20 @@
 }
 
 .h2-rescatados{
-    @include titulo-h2(#e3b1c8,1.5em);
+    @include titulo-h2(#bec092,1.5em);
+    @media(max-width:375px){
+        font-size: 1em;
+        width:auto;
+        margin-top:10px;
+        margin-right:15%;
+        padding:auto;
+    }
 }
 
 .h2-quienessomos{
-    @include titulo-h2(rgb(146, 168, 255),2em);
+    @include titulo-h2(#bec092,1.5em);
+    text-transform: uppercase;
+    text-align: left;
 }
 
 .seccion-infoutil{
@@ -55,5 +70,5 @@
 
 .seccion-rescatados{
     @extend %seccion;
-    background-color:#c0a0c3;
+    background-color:#e3b1c8;
 }

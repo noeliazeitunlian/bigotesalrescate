@@ -4,17 +4,62 @@
 
 
 .card-img-top{
-    width: 50%;
+    width: 70%;
     padding: auto;
     margin: auto;
     margin-top: 3%;
+    border-radius: 10px;   
 }
 
 .card-title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
     text-align: center;
+
 }
 
 .card{
     margin:auto;
-    background-color: #fbe4ce;
+    width: 300px;
+    background-color:map-get($colores,"color-quinto");
+    border-radius: 10px;
+    border-color:map-get($colores,"color-texto");
+    border-left-color: map-get($colores,"color-texto");
+
+    @media (max-width:425px){
+        width: 150px;
+        height: auto;
+        border: none;
+    }
+}
+
+.card-text{
+    margin-top: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+
+.btn{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 30%;
+
+    @media (max-width:375px){
+        width: 100px;
+        font-size: 15px;
+        margin-left: 10%;
+        border: none;
+    }
+}
+
+.mapa{
+    width: 320px;
+    height: 250px;
+    margin-left: 35%;
+
+    @media (max-width:375px){
+        width: 200px;
+        margin-left: 15%;
+        border: none;
+    }
 }

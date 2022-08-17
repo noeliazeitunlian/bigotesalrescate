@@ -26,34 +26,15 @@ body {
   padding: 0.2rem 0.5rem; }
 
 .formulario {
-  background-color: #e3b1c8; }
+  background-color: #bec092;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif; }
 
 .h2 {
-  background-color: #c0a0c3 251, 185, 99; }
-
-.galeria_rescatista img {
-  width: 100%;
-  height: 250px;
-  border: 1px solid; }
-
-.galeria_rescatista p {
-  text-align: center; }
-
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 50%;
-  position: relative;
-  height: 0; }
-
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 50%;
-  width: 50%;
-  position: absolute; }
+  background-color: #c0a0c3; }
 
 .texto_rescatista {
-  font-size: 90;
+  font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
   justify-content: center;
@@ -79,10 +60,10 @@ body {
   text-decoration: underline; }
 
 .container {
-  width: 100%;
-  max-width: 1000px;
   margin: auto;
-  justify-content: center; }
+  justify-content: center;
+  width: 300px;
+  height: 300px; }
 
 .list-group {
   margin-top: 2%; }
@@ -95,62 +76,25 @@ body {
   justify-content: center;
   font-weight: bold; }
 
-@media (max-width: 375px) {
-  .body {
-    overflow-x: hidden; }
-  .seccion-incio {
-    display: none;
-    margin: auto; }
-  .img-fluid-index {
-    display: none; }
-  .listado_requisitos {
-    font-size: 12px;
-    margin-right: 20%; }
-  .list-group {
-    height: 70%;
-    width: 60%;
-    margin-left: 20%;
-    font-size: 15px;
-    text-align: center;
-    justify-content: center; }
-  .list-group-item {
-    height: 50%;
-    width: auto; }
-  .container-footer {
-    background-color: #ecd6c0; }
-  .row {
-    font-size: 12px;
-    overflow-x: hidden;
-    margin-left: 20%;
-    text-align: center;
-    width: 50%;
-    height: 50%; }
-  .col-4 {
-    margin: auto;
-    width: 60%; }
-  .titulo_ley {
-    font-size: 1.2em; }
-  .texto_rescatista {
-    font-size: 13px; }
-  .resaltar {
-    font-size: 15px; } }
-
 .col-4 {
   margin: auto;
   width: 30%; }
 
 .list-group-item {
-  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
   line-height: 1.9em;
-  background-color: #e3b1c8;
+  background-color: #daabb6;
   padding: 1%;
   list-style-position: inside;
-  text-align: right;
-  width: auto; }
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 30%;
+  width: 60%; }
 
 .img-fluid-index {
   width: 350px;
-  height: auto;
+  height: 220px;
   float: left;
   margin-left: 10%;
   border-radius: 50%;
@@ -159,7 +103,7 @@ body {
   border-style: solid; }
 
 .btn {
-  background-color: #e3b1c8; }
+  background-color: #daabb6; }
 
 .imagen_gatitoadoptante {
   width: 350px;
@@ -167,14 +111,22 @@ body {
   float: left;
   margin-left: 15%;
   border-radius: 50%;
-  border-color: #dc9ffa;
+  border-color: #dac9df;
   border-width: 5px;
   border-style: solid; }
 
 .formulario {
   padding: 1%;
   margin-left: 20%;
-  margin-right: 20%; }
+  margin-right: 20%;
+  background-color: #bec092;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif; }
+  @media (max-width: 768px) {
+    .formulario {
+      font-size: 12px;
+      margin-left: auto;
+      margin-right: auto; } }
   .formulario .opciones {
     justify-content: space-around;
     width: 20rem;
@@ -183,13 +135,19 @@ body {
 section h6 {
   padding: auto;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: center;
   text-transform: uppercase; }
+  @media (max-width: 768px) {
+    section h6 {
+      font-size: 1.7em; } }
 
 .opciones label {
   font-size: 0.9rem;
   margin-bottom: 0.2px; }
+  @media (max-width: 768px) {
+    .opciones label {
+      font-size: 11px; } }
 
 .opciones div {
   display: flex;
@@ -224,6 +182,9 @@ footer {
     font-size: 2em;
     letter-spacing: 2.5px;
     text-align: center; }
+    @media (max-width: 768px) {
+      footer h4 {
+        font-size: 1.5em; } }
   footer .row {
     text-align: center; }
   footer .container-footer {
@@ -263,7 +224,7 @@ footer {
   animation-duration: 2s; }
 
 .h3-comoadoptar {
-  background-color: #fbb963;
+  background-color: #ccaa88;
   font-size: 1.7em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: rgba(0, 0, 0, 0.875);
@@ -273,7 +234,14 @@ footer {
   height: fit-content;
   display: flex;
   justify-content: right;
-  width: fit-content; }
+  width: fit-content;
+  margin-top: 10px; }
+  @media (max-width: 768px) {
+    .h3-comoadoptar {
+      margin: auto;
+      font-size: 1em;
+      padding: 2%;
+      margin-top: 10px; } }
 
 .h3-index {
   background-color: #e8c39e;
@@ -286,7 +254,8 @@ footer {
   height: fit-content;
   display: flex;
   justify-content: right;
-  width: fit-content; }
+  width: fit-content;
+  margin-top: 10px; }
   @media (max-width: 375px) {
     .h3-index {
       margin: auto;
@@ -310,7 +279,7 @@ footer {
       padding: 1%; } }
 
 .h2-rescatados {
-  background-color: #e3b1c8;
+  background-color: #bec092;
   font-size: 1.5em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   letter-spacing: 2.5px;
@@ -320,10 +289,17 @@ footer {
   justify-content: center;
   text-align: center;
   margin-left: 25%; }
+  @media (max-width: 375px) {
+    .h2-rescatados {
+      font-size: 1em;
+      width: auto;
+      margin-top: 10px;
+      margin-right: 15%;
+      padding: auto; } }
 
 .h2-quienessomos {
-  background-color: #92a8ff;
-  font-size: 2em;
+  background-color: #bec092;
+  font-size: 1.5em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   letter-spacing: 2.5px;
   width: 60%;
@@ -331,7 +307,9 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-left: 25%; }
+  margin-left: 25%;
+  text-transform: uppercase;
+  text-align: left; }
 
 .seccion-infoutil {
   background-color: #e3b1c8; }
@@ -346,7 +324,7 @@ footer {
   background-color: #e3b1c8; }
 
 .seccion-rescatados {
-  background-color: #c0a0c3; }
+  background-color: #e3b1c8; }
 
 .seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -389,6 +367,14 @@ footer {
   list-style-position: inside;
   margin-top: 10px;
   margin-left: 25%; }
+  @media (max-width: 768px) {
+    .listado-comoadoptar {
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin: auto;
+      text-align: left;
+      margin-top: 5px;
+      background-color: #c0a0c3; } }
 
 .listado-infoutil {
   background-color: #c0a0c3;
@@ -403,14 +389,17 @@ footer {
   list-style-position: inside;
   margin-top: 10px;
   margin-left: 1%; }
-  @media (max-width: 375px) {
+  @media (max-width: 768px) {
     .listado-infoutil {
+      width: fit-content;
       font-size: 16px;
       letter-spacing: 1px;
       margin: auto;
       text-align: left;
       margin-top: 5px;
-      background-color: #c0a0c3; } }
+      background-color: #c0a0c3;
+      margin-left: 0px;
+      margin-left: auto; } }
 
 .seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -427,14 +416,121 @@ footer {
   animation-duration: 2s; }
 
 .card-img-top {
-  width: 50%;
+  width: 70%;
   padding: auto;
   margin: auto;
-  margin-top: 3%; }
+  margin-top: 3%;
+  border-radius: 10px; }
 
 .card-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
   text-align: center; }
 
 .card {
   margin: auto;
-  background-color: #fbe4ce; }
+  width: 300px;
+  background-color: #dac9df;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.799);
+  border-left-color: rgba(0, 0, 0, 0.799); }
+  @media (max-width: 425px) {
+    .card {
+      width: 150px;
+      height: auto;
+      border: none; } }
+
+.card-text {
+  margin-top: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px; }
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 30%; }
+  @media (max-width: 375px) {
+    .btn {
+      width: 100px;
+      font-size: 15px;
+      margin-left: 10%;
+      border: none; } }
+
+.mapa {
+  width: 320px;
+  height: 250px;
+  margin-left: 35%; }
+  @media (max-width: 375px) {
+    .mapa {
+      width: 200px;
+      margin-left: 15%;
+      border: none; } }
+
+.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 2.5px;
+  color: rgba(0, 0, 0, 0.799);
+  padding: 15px;
+  margin-right: auto;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  animation: flash;
+  animation-duration: 2s; }
+
+@media (max-width: 768px) {
+  .body {
+    overflow-x: hidden; }
+  .seccion-incio {
+    display: none;
+    margin: auto; }
+  .img-fluid-index {
+    display: none; }
+  .listado_requisitos {
+    font-size: 12px;
+    margin-right: 20%; }
+  .list-group {
+    height: 70%;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center; }
+  .list-group-item {
+    height: 50%;
+    width: auto; }
+  .container-footer {
+    background-color: #ecd6c0; }
+  .row {
+    font-size: 12px;
+    overflow-x: hidden;
+    margin-left: 20%;
+    text-align: center;
+    width: 50%;
+    height: 50%; }
+  .col-4 {
+    margin: auto;
+    width: 60%; }
+  .titulo_ley {
+    font-size: 1.2em; }
+  .texto_rescatista {
+    font-size: 13px; }
+  .resaltar {
+    font-size: 15px; }
+  .container {
+    width: fit-content;
+    height: fit-content; } }
+
+@media (max-width: 375px) {
+  .footer-ultimo {
+    font-size: 12px; }
+  .div-infoutil {
+    width: 375px;
+    height: auto; }
+  .img-fluid {
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center; } }

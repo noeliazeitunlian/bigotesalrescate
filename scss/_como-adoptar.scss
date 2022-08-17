@@ -3,6 +3,15 @@
     padding:1%;
     margin-left: 20%;
     margin-right: 20%;
+    background-color:map-get($colores,"color-cuarto");
+    margin-top: 10px;
+    font-family:'Raleway', sans-serif;
+
+    @media (max-width:768px){
+        font-size:12px;
+        margin-left:auto;
+        margin-right:auto;
+    }
 
     .opciones{
         justify-content: space-around;
@@ -16,11 +25,16 @@ section{
         padding:auto;
         font:{
             family:'Yanone Kaffeesatz', sans-serif;
-            size: 2rem;
+            size: 1.8rem;
         }
+
         text:{
             align: center;
             transform: uppercase;
+        }
+
+        @media (max-width:768px){
+            font-size:1.7em;
         }
     }
 }
@@ -29,6 +43,10 @@ section{
     label{
     font-size: 0.9rem;
     margin-bottom: 0.2px;
+
+    @media (max-width:768px){
+        font-size:11px;
+    }
     }
 
     div{

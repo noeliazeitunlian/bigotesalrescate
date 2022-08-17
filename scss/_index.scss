@@ -1,24 +1,27 @@
 @import './mixins';
 
 
-.col-4 /*imagen carrusel*/{
+.col-4{
     margin: auto;
     width: 30%;
  }
  
- .list-group-item /*listado*/{
-     font-size: 1em;  
+ .list-group-item{
+    font-family:'Raleway', sans-serif;
+    font-size: 0.8em;  
      line-height: 1.9em;
      background-color:map-get($colores,"color-terciario");
      padding:1%;
      list-style-position: inside;
-     text-align: right;
-     width: auto;
+     text-align: center;
+     text-transform: uppercase;
+     margin-left: 30%;
+     width: 60%;
  }
 
  .img-fluid-index{
     width:350px;
-    height:auto;
+    height:220px;
     float:left;
     margin-left:10%;
 
