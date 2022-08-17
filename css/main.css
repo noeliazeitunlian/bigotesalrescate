@@ -17,75 +17,20 @@
   padding: 0; }
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   background: #ffe6df;
   overflow-x: hidden; }
 
-.card-body {
-  flex: 1 1 auto;
-  padding: 0.2rem 0.5rem; }
-
 .formulario {
-  background-color: #e3b1c8; }
-
-.h2 {
-  background-color: #c0a0c3 251, 185, 99; }
-
-.galeria_rescatista img {
-  width: 100%;
-  height: 250px;
-  border: 1px solid; }
-
-.galeria_rescatista p {
-  text-align: center; }
-
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 50%;
-  position: relative;
-  height: 0; }
-
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 50%;
-  width: 50%;
-  position: absolute; }
-
-.texto_rescatista {
-  font-size: 90;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
-  justify-content: center;
-  margin: 0;
-  padding: auto;
-  letter-spacing: 1px; }
-
-.container_rescatista {
-  display: flex;
-  justify-content: center;
-  width: 500px;
-  height: 500px;
-  box-sizing: border-box; }
-
-.container_rescatista img {
-  width: 250px;
-  height: 250px; }
-
-.titulo_ley {
-  color: #008f6d;
-  justify-content: center;
-  text-align: center;
-  text-decoration: underline; }
+  background-color: #bec092;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif; }
 
 .container {
-  width: 100%;
-  max-width: 1000px;
   margin: auto;
-  justify-content: center; }
-
-.list-group {
-  margin-top: 2%; }
+  justify-content: center;
+  width: 300px;
+  height: 300px; }
 
 .resaltar {
   margin-top: 2%;
@@ -94,364 +39,6 @@ body {
   text-align: center;
   justify-content: center;
   font-weight: bold; }
-
-@media (max-width: 375px) {
-  .body {
-    overflow-x: hidden; }
-  .seccion-incio {
-    display: none;
-    margin: auto; }
-  .img-fluid-index {
-    display: none; }
-  .listado_requisitos {
-    font-size: 12px;
-    margin-right: 20%; }
-  .list-group {
-    height: 70%;
-    width: 60%;
-    margin-left: 20%;
-    font-size: 15px;
-    text-align: center;
-    justify-content: center; }
-  .list-group-item {
-    height: 50%;
-    width: auto; }
-  .container-footer {
-    background-color: #ecd6c0; }
-  .row {
-    font-size: 12px;
-    overflow-x: hidden;
-    margin-left: 20%;
-    text-align: center;
-    width: 50%;
-    height: 50%; }
-  .col-4 {
-    margin: auto;
-    width: 60%; }
-  .titulo_ley {
-    font-size: 1.2em; }
-  .texto_rescatista {
-    font-size: 13px; }
-  .resaltar {
-    font-size: 15px; } }
-
-.col-4 {
-  margin: auto;
-  width: 30%; }
-
-.list-group-item {
-  font-size: 1em;
-  line-height: 1.9em;
-  background-color: #e3b1c8;
-  padding: 1%;
-  list-style-position: inside;
-  text-align: right;
-  width: auto; }
-
-.img-fluid-index {
-  width: 350px;
-  height: auto;
-  float: left;
-  margin-left: 10%;
-  border-radius: 50%;
-  border-color: #ecd6c0;
-  border-width: 5px;
-  border-style: solid; }
-
-.btn {
-  background-color: #e3b1c8; }
-
-.imagen_gatitoadoptante {
-  width: 350px;
-  height: auto;
-  float: left;
-  margin-left: 15%;
-  border-radius: 50%;
-  border-color: #dc9ffa;
-  border-width: 5px;
-  border-style: solid; }
-
-.formulario {
-  padding: 1%;
-  margin-left: 20%;
-  margin-right: 20%; }
-  .formulario .opciones {
-    justify-content: space-around;
-    width: 20rem;
-    margin: 0.75rem 0; }
-
-section h6 {
-  padding: auto;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 2rem;
-  text-align: center;
-  text-transform: uppercase; }
-
-.opciones label {
-  font-size: 0.9rem;
-  margin-bottom: 0.2px; }
-
-.opciones div {
-  display: flex;
-  justify-content: flex-start;
-  padding-left: 0.2rem; }
-  .opciones div input {
-    cursor: pointer; }
-
-.grid-item {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  transition: transform 0.3s ease-in-out;
-  background-color: #ecd6c0;
-  background-position: center;
-  background-repeat: no-repeat; }
-  .grid-item:hover {
-    filter: opacity(0.9);
-    transform: scale(1.04); }
-
-footer {
-  background: #ecd6c0;
-  margin: auto;
-  min-height: 100%;
-  margin-top: 1rem; }
-  footer h4 {
-    width: 100%;
-    padding: 1%;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: rgba(0, 0, 0, 0.875);
-    font-size: 2em;
-    letter-spacing: 2.5px;
-    text-align: center; }
-  footer .row {
-    text-align: center; }
-  footer .container-footer {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px; }
-  footer .footer-ultimo {
-    text-align: center;
-    margin-top: 2%; }
-
-.logo {
-  width: 75px;
-  height: 75px; }
-
-.navbar-collapse {
-  flex-grow: end; }
-
-.container-fluid {
-  background-color: #ecd6c0;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 1.5em; }
-
-.nav-link:hover {
-  background-color: #bf9780; }
-
-.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.2em;
-  letter-spacing: 2.5px;
-  color: rgba(0, 0, 0, 0.799);
-  padding: 15px;
-  margin-right: auto;
-  height: fit-content;
-  width: fit-content;
-  display: flex;
-  justify-content: center;
-  animation: flash;
-  animation-duration: 2s; }
-
-.h3-comoadoptar {
-  background-color: #fbb963;
-  font-size: 1.7em;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: rgba(0, 0, 0, 0.875);
-  letter-spacing: 2.5px;
-  padding: 20px;
-  margin-left: auto;
-  height: fit-content;
-  display: flex;
-  justify-content: right;
-  width: fit-content; }
-
-.h3-index {
-  background-color: #e8c39e;
-  font-size: 2em;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: rgba(0, 0, 0, 0.875);
-  letter-spacing: 2.5px;
-  padding: 20px;
-  margin-left: auto;
-  height: fit-content;
-  display: flex;
-  justify-content: right;
-  width: fit-content; }
-  @media (max-width: 375px) {
-    .h3-index {
-      margin: auto;
-      font-size: 1em;
-      padding: 2%; } }
-
-.h2-index {
-  background-color: #c0a0c3;
-  font-size: 1.6em;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  letter-spacing: 2.5px;
-  width: 60%;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-left: 25%; }
-  @media (max-width: 375px) {
-    .h2-index {
-      font-size: 1em;
-      padding: 1%; } }
-
-.h2-rescatados {
-  background-color: #e3b1c8;
-  font-size: 1.5em;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  letter-spacing: 2.5px;
-  width: 60%;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-left: 25%; }
-
-.h2-quienessomos {
-  background-color: #92a8ff;
-  font-size: 2em;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  letter-spacing: 2.5px;
-  width: 60%;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-left: 25%; }
-
-.seccion-infoutil {
-  background-color: #e3b1c8; }
-
-.seccion-inicio {
-  background-color: #e3b1c8; }
-
-.seccion-comoadoptar {
-  background-color: #e3b1c8; }
-
-.seccion-quienessomos {
-  background-color: #e3b1c8; }
-
-.seccion-rescatados {
-  background-color: #c0a0c3; }
-
-.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.2em;
-  letter-spacing: 2.5px;
-  color: rgba(0, 0, 0, 0.799);
-  padding: 15px;
-  margin-right: auto;
-  height: fit-content;
-  width: fit-content;
-  display: flex;
-  justify-content: center;
-  animation: flash;
-  animation-duration: 2s; }
-
-.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.2em;
-  letter-spacing: 2.5px;
-  color: rgba(0, 0, 0, 0.799);
-  padding: 15px;
-  margin-right: auto;
-  height: fit-content;
-  width: fit-content;
-  display: flex;
-  justify-content: center;
-  animation: flash;
-  animation-duration: 2s; }
-
-.listado-comoadoptar {
-  background-color: #f9b7b7;
-  font-size: 1.5em;
-  padding: 1%;
-  text-align: center;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  letter-spacing: 1.8px;
-  line-height: 1.9em;
-  width: fit-content;
-  height: fit-content;
-  list-style-position: inside;
-  margin-top: 10px;
-  margin-left: 25%; }
-
-.listado-infoutil {
-  background-color: #c0a0c3;
-  font-size: 1.3em;
-  padding: 2%;
-  text-align: left;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  letter-spacing: 1.8px;
-  line-height: 1.9em;
-  width: fit-content;
-  height: fit-content;
-  list-style-position: inside;
-  margin-top: 10px;
-  margin-left: 1%; }
-  @media (max-width: 375px) {
-    .listado-infoutil {
-      font-size: 16px;
-      letter-spacing: 1px;
-      margin: auto;
-      text-align: left;
-      margin-top: 5px;
-      background-color: #c0a0c3; } }
-
-.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.2em;
-  letter-spacing: 2.5px;
-  color: rgba(0, 0, 0, 0.799);
-  padding: 15px;
-  margin-right: auto;
-  height: fit-content;
-  width: fit-content;
-  display: flex;
-  justify-content: center;
-  animation: flash;
-  animation-duration: 2s; }
-
-.card-img-top {
-  width: 50%;
-  padding: auto;
-  margin: auto;
-  margin-top: 3%; }
-
-.card-title {
-  text-align: center; }
-
-.card {
-  margin: auto;
-  background-color: #fbe4ce; }
-
-.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.2em;
-  letter-spacing: 2.5px;
-  color: rgba(0, 0, 0, 0.799);
-  padding: 15px;
-  margin-right: auto;
-  height: fit-content;
-  width: fit-content;
-  display: flex;
-  justify-content: center;
-  animation: flash;
-  animation-duration: 2s; }
 
 @media (max-width: 768px) {
   .body {
@@ -507,3 +94,420 @@ footer {
     height: 250px;
     align-items: center;
     justify-content: center; } }
+
+.col-4 {
+  margin: auto;
+  width: 30%; }
+
+.list-group-item {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  line-height: 1.9em;
+  background-color: #daabb6;
+  padding: 1%;
+  list-style-position: inside;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 30%;
+  width: 60%; }
+
+.img-fluid-index {
+  width: 350px;
+  height: 220px;
+  float: left;
+  margin-left: 10%;
+  border-radius: 50%;
+  border-color: #ecd6c0;
+  border-width: 5px;
+  border-style: solid; }
+
+.btn {
+  background-color: #daabb6; }
+
+.imagen_gatitoadoptante {
+  width: 350px;
+  height: auto;
+  float: left;
+  margin-left: 15%;
+  border-radius: 50%;
+  border-color: #dac9df;
+  border-width: 5px;
+  border-style: solid; }
+
+.formulario {
+  padding: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #bec092;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif; }
+  @media (max-width: 768px) {
+    .formulario {
+      font-size: 12px;
+      margin-left: auto;
+      margin-right: auto; } }
+  .formulario .opciones {
+    justify-content: space-around;
+    width: 20rem;
+    margin: 0.75rem 0; }
+
+section h6 {
+  padding: auto;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: uppercase; }
+  @media (max-width: 768px) {
+    section h6 {
+      font-size: 1.7em; } }
+
+.opciones label {
+  font-size: 0.9rem;
+  margin-bottom: 0.2px; }
+  @media (max-width: 768px) {
+    .opciones label {
+      font-size: 11px; } }
+
+.opciones div {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0.2rem; }
+  .opciones div input {
+    cursor: pointer; }
+
+.grid-item {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-color: #ecd6c0;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04); }
+
+footer {
+  background: #ecd6c0;
+  margin: auto;
+  min-height: 100%;
+  margin-top: 1rem; }
+  footer h4 {
+    width: 100%;
+    padding: 1%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgba(0, 0, 0, 0.875);
+    font-size: 2em;
+    letter-spacing: 2.5px;
+    text-align: center; }
+    @media (max-width: 768px) {
+      footer h4 {
+        font-size: 1.5em; } }
+  footer .row {
+    text-align: center; }
+  footer .container-footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px; }
+  footer .footer-ultimo {
+    text-align: center;
+    margin-top: 2%; }
+
+.logo {
+  width: 75px;
+  height: 75px; }
+
+.navbar-collapse {
+  flex-grow: end; }
+
+.container-fluid {
+  background-color: #ecd6c0;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5em; }
+
+.nav-link:hover {
+  background-color: #bf9780; }
+
+.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 2.5px;
+  color: rgba(0, 0, 0, 0.799);
+  padding: 15px;
+  margin-right: auto;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  animation: flash;
+  animation-duration: 2s; }
+
+.h3-comoadoptar {
+  background-color: #ccaa88;
+  font-size: 1.7em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: rgba(0, 0, 0, 0.875);
+  letter-spacing: 2.5px;
+  padding: 20px;
+  margin-left: auto;
+  height: fit-content;
+  display: flex;
+  justify-content: right;
+  width: fit-content;
+  margin-top: 10px; }
+  @media (max-width: 768px) {
+    .h3-comoadoptar {
+      margin: auto;
+      font-size: 1em;
+      padding: 2%;
+      margin-top: 10px; } }
+
+.h3-index {
+  background-color: #e8c39e;
+  font-size: 2em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: rgba(0, 0, 0, 0.875);
+  letter-spacing: 2.5px;
+  padding: 20px;
+  margin-left: auto;
+  height: fit-content;
+  display: flex;
+  justify-content: right;
+  width: fit-content;
+  margin-top: 10px; }
+  @media (max-width: 375px) {
+    .h3-index {
+      margin: auto;
+      font-size: 1em;
+      padding: 2%; } }
+
+.h2-index {
+  background-color: #c0a0c3;
+  font-size: 1.6em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 2.5px;
+  width: 60%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 25%; }
+  @media (max-width: 375px) {
+    .h2-index {
+      font-size: 1em;
+      padding: 1%; } }
+
+.h2-rescatados {
+  background-color: #bec092;
+  font-size: 1.5em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 2.5px;
+  width: 60%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 25%; }
+  @media (max-width: 375px) {
+    .h2-rescatados {
+      font-size: 1em;
+      width: auto;
+      margin-top: 10px;
+      margin-right: 15%;
+      padding: auto; } }
+
+.h2-quienessomos {
+  background-color: #bec092;
+  font-size: 1.5em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 2.5px;
+  width: 60%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 25%;
+  text-transform: uppercase;
+  text-align: left; }
+
+.seccion-infoutil {
+  background-color: #e3b1c8; }
+
+.seccion-inicio {
+  background-color: #e3b1c8; }
+
+.seccion-comoadoptar {
+  background-color: #e3b1c8; }
+
+.seccion-quienessomos {
+  background-color: #e3b1c8; }
+
+.seccion-rescatados {
+  background-color: #e3b1c8; }
+
+.h2 {
+  background-color: #c0a0c3; }
+
+.h5-titulo {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2em;
+  letter-spacing: 3.5px;
+  text-align: center;
+  margin-top: 5px; }
+
+.titulo_ley {
+  font-family: 'Bebas Neue', cursive;
+  color: #008f6d;
+  justify-content: center;
+  text-align: center;
+  text-decoration: underline; }
+
+.parrafo {
+  font-size: 13px;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: auto;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif; }
+
+.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 2.5px;
+  color: rgba(0, 0, 0, 0.799);
+  padding: 15px;
+  margin-right: auto;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  animation: flash;
+  animation-duration: 2s; }
+
+.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 2.5px;
+  color: rgba(0, 0, 0, 0.799);
+  padding: 15px;
+  margin-right: auto;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  animation: flash;
+  animation-duration: 2s; }
+
+.listado-comoadoptar {
+  background-color: #f9b7b7;
+  font-size: 1.5em;
+  padding: 1%;
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 1.9em;
+  width: fit-content;
+  height: fit-content;
+  list-style-position: inside;
+  margin-top: 10px;
+  margin-left: 25%; }
+  @media (max-width: 768px) {
+    .listado-comoadoptar {
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin: auto;
+      text-align: left;
+      margin-top: 5px;
+      background-color: #c0a0c3; } }
+
+.listado-infoutil {
+  background-color: #c0a0c3;
+  font-size: 1.3em;
+  padding: 2%;
+  text-align: left;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 1.9em;
+  width: fit-content;
+  height: fit-content;
+  list-style-position: inside;
+  margin-top: 10px;
+  margin-left: 1%; }
+  @media (max-width: 768px) {
+    .listado-infoutil {
+      width: fit-content;
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin: auto;
+      text-align: left;
+      margin-top: 5px;
+      background-color: #c0a0c3;
+      margin-left: 0px;
+      margin-left: auto; } }
+
+.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 2.5px;
+  color: rgba(0, 0, 0, 0.799);
+  padding: 15px;
+  margin-right: auto;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  animation: flash;
+  animation-duration: 2s; }
+
+.card-img-top {
+  width: 70%;
+  padding: auto;
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 10px; }
+
+.card-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.card {
+  margin: auto;
+  width: 300px;
+  background-color: #dac9df;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.799);
+  border-left-color: rgba(0, 0, 0, 0.799); }
+  @media (max-width: 425px) {
+    .card {
+      width: 150px;
+      height: auto;
+      border: none; } }
+
+.card-text {
+  margin-top: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px; }
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 43%;
+  margin-top: 20px; }
+  @media (max-width: 375px) {
+    .btn {
+      width: 100px;
+      font-size: 15px;
+      margin-left: 10%;
+      border: none; } }
+
+.mapa {
+  width: 520px;
+  height: 250px;
+  margin-left: 35%; }
+  @media (max-width: 375px) {
+    .mapa {
+      width: 200px;
+      margin-left: 15%;
+      border: none; } }

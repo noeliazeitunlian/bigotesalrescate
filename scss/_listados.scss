@@ -4,17 +4,31 @@
 
 .listado-comoadoptar{
     @include listado_requisitos(rgb(249, 183, 183),center,1%,1.5em,25%);
+    
+        @media(max-width:768px){
+            font-size: 16px;
+            letter-spacing: 1px;
+            margin: auto;
+            text-align: left;
+            margin-top: 5px;
+            background-color: #c0a0c3;
+        }
+    
 }
 
 .listado-infoutil{
     @include listado_requisitos(#c0a0c3,left,2%,1.3em,1%);
 
-    @media(max-width:375px){
+    @media(max-width:768px){
+        width: fit-content;
         font-size: 16px;
-        letter-spacing: 1px;
+        letter-spacing:1px;
         margin: auto;
         text-align: left;
         margin-top: 5px;
         background-color: #c0a0c3;
+        margin-left: 0px;
+        margin-left:auto;
     }
 }
+
