@@ -72,3 +72,35 @@
     @extend %seccion;
     background-color:#e3b1c8;
 }
+
+.h2{
+    background-color: map-get($colores,"color-secundario");
+}
+
+.h5-titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    letter-spacing: 3.5px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.titulo_ley{
+    font-family: 'Bebas Neue', cursive;
+    color: #008f6d;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.parrafo{
+    font-size:13px;
+    text-align: center;
+    justify-content: center;
+    margin:0;
+    padding:auto;
+    letter-spacing: 1px;
+    font-family:'Raleway', sans-serif;
+
+}

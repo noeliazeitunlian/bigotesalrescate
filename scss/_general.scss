@@ -8,16 +8,12 @@
 }
 
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     background: #ffe6df;
     overflow-x: hidden;
 }   
 
- 
-.card-body {
-    flex: 1 1 auto;
-    padding: 0.2rem 0.5rem;
-}
+
 
 .formulario{
     background-color:map-get($colores,"color-cuarto");
@@ -26,40 +22,6 @@ body{
 
 }
 
-.h2{
-    background-color: map-get($colores,"color-secundario");
-}
-
-
-.texto_rescatista{
-    font-size:20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    justify-content: center;
-    margin:0;
-    padding:auto;
-    letter-spacing: 1px;
-}
-
-.container_rescatista{
-    display: flex;
-    justify-content: center;
-    width: 500px;
-    height: 500px;
-    box-sizing: border-box;    
-}
-
-.container_rescatista img{
-    width: 250px;
-    height: 250px;
-}
-
-.titulo_ley{
-    color: #008f6d;
-    justify-content: center;
-    text-align: center;
-    text-decoration: underline;
-}
 
 .container{
     margin:auto;
@@ -68,9 +30,7 @@ body{
     height: 300px;
 }
 
-.list-group{
-    margin-top: 2%;
-}
+
 
 .resaltar{
     margin:{

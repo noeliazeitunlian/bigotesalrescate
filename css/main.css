@@ -17,56 +17,20 @@
   padding: 0; }
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   background: #ffe6df;
   overflow-x: hidden; }
-
-.card-body {
-  flex: 1 1 auto;
-  padding: 0.2rem 0.5rem; }
 
 .formulario {
   background-color: #bec092;
   margin-top: 10px;
   font-family: 'Raleway', sans-serif; }
 
-.h2 {
-  background-color: #c0a0c3; }
-
-.texto_rescatista {
-  font-size: 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
-  justify-content: center;
-  margin: 0;
-  padding: auto;
-  letter-spacing: 1px; }
-
-.container_rescatista {
-  display: flex;
-  justify-content: center;
-  width: 500px;
-  height: 500px;
-  box-sizing: border-box; }
-
-.container_rescatista img {
-  width: 250px;
-  height: 250px; }
-
-.titulo_ley {
-  color: #008f6d;
-  justify-content: center;
-  text-align: center;
-  text-decoration: underline; }
-
 .container {
   margin: auto;
   justify-content: center;
   width: 300px;
   height: 300px; }
-
-.list-group {
-  margin-top: 2%; }
 
 .resaltar {
   margin-top: 2%;
@@ -326,6 +290,32 @@ footer {
 .seccion-rescatados {
   background-color: #e3b1c8; }
 
+.h2 {
+  background-color: #c0a0c3; }
+
+.h5-titulo {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2em;
+  letter-spacing: 3.5px;
+  text-align: center;
+  margin-top: 5px; }
+
+.titulo_ley {
+  font-family: 'Bebas Neue', cursive;
+  color: #008f6d;
+  justify-content: center;
+  text-align: center;
+  text-decoration: underline; }
+
+.parrafo {
+  font-size: 13px;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: auto;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif; }
+
 .seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.2em;
@@ -448,7 +438,8 @@ footer {
 
 .btn {
   font-family: 'Raleway', sans-serif;
-  margin-left: 30%; }
+  margin-left: 43%;
+  margin-top: 20px; }
   @media (max-width: 375px) {
     .btn {
       width: 100px;
@@ -457,7 +448,7 @@ footer {
       border: none; } }
 
 .mapa {
-  width: 320px;
+  width: 520px;
   height: 250px;
   margin-left: 35%; }
   @media (max-width: 375px) {

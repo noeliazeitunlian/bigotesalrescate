@@ -42,7 +42,8 @@
 
 .btn{
     font-family: 'Raleway', sans-serif;
-    margin-left: 30%;
+    margin-left: 43%;
+    margin-top:20px;
 
     @media (max-width:375px){
         width: 100px;
@@ -53,7 +54,7 @@
 }
 
 .mapa{
-    width: 320px;
+    width: 520px;
     height: 250px;
     margin-left: 35%;
 
@@ -63,3 +64,4 @@
         border: none;
     }
 }
+
