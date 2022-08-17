@@ -1,0 +1,93 @@
+@import './mixins';
+@import './extends';
+@import './base/variables';
+
+@media(max-width:768px) {
+    .body{
+        overflow-x: hidden;
+    }
+    .seccion-incio{
+        display: none;
+        margin: auto;
+    }
+
+    .img-fluid-index{
+        display: none;
+    }
+
+    .listado_requisitos{
+        font-size:12px;
+        margin-right:20%;
+    }
+
+    .list-group{
+        height: 70%;
+        width: 60%;
+        margin-left: 20%;
+        font-size: 15px;
+        text-align:center;
+        justify-content: center;
+    }
+
+    .list-group-item{
+        
+        height:50%;
+        width: auto;
+        
+
+    }
+    .container-footer{
+        background-color:#ecd6c0;
+    }
+
+    .row{
+        font-size: 12px;
+        overflow-x: hidden;
+        margin-left: 20%;
+        text-align: center;
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .col-4{
+        margin: auto;
+        width: 60%;
+     }
+
+     .titulo_ley{
+        font-size: 1.2em;
+     }
+     
+     .texto_rescatista{
+        font-size: 13px;
+     }
+
+     .resaltar{
+        font-size:15px;
+     }
+
+     .container{
+        width: fit-content;
+        height: fit-content;
+     }
+}
+
+@media(max-width:375px){
+    .footer-ultimo{
+        font-size: 12px;
+    }
+
+    .div-infoutil{
+        width: 375px;
+        height: auto;
+    }
+
+    .img-fluid{
+        width: 250px;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
