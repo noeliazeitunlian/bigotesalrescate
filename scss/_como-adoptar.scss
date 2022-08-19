@@ -1,16 +1,17 @@
 @import './mixins';
 .formulario{
-    padding:1%;
+    width: 50%;
+    height: 50%;
     margin-left: 30%;
-    margin-right: 20%;
+    padding:1%;
     background-color:map-get($colores,"color-cuarto");
     margin-top: 10px;
     font-family:'Raleway', sans-serif;
 
-    @media (max-width:768px){
-        font-size:12px;
-        margin-left:auto;
-        margin-right:auto;
+
+    @media(min-width:375px){
+        width:50%;
+        height:30%;
     }
 
     .opciones{
@@ -77,10 +78,3 @@ section{
           }
   }
 
-
-  .formulario{
-    background-color:map-get($colores,"color-cuarto");
-    margin-top: 10px;
-    font-family:'Raleway', sans-serif;
-
-}

@@ -49,8 +49,8 @@
     }
 
     @media(min-width:768px){
-        width: 300px;
-        height: 250px;
+        width: 350px;
+        height: 220px;
     }
 }
 .btn{
@@ -81,14 +81,7 @@
         border: none;
     }
 
-    @media (max-width:425px){
-        width:300px;
-        height:200px;
-        margin-left:15%;
-        border: none;
-    }
-
-    @media (max-width:768px){
+    @media (min-width:768px){
         width:350px;
         height:200px;
         margin-left:35%;

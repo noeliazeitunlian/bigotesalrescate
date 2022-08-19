@@ -89,10 +89,10 @@ body {
   width: 30%; }
 
 .img-fluid-index {
-  width: 350px;
+  width: 340px;
   height: 220px;
   float: left;
-  margin-left: 10%;
+  margin-left: 3%;
   border-radius: 50%;
   border-color: #ecd6c0;
   border-width: 5px;
@@ -109,17 +109,17 @@ body {
   border-style: solid; }
 
 .formulario {
-  padding: 1%;
+  width: 50%;
+  height: 50%;
   margin-left: 30%;
-  margin-right: 20%;
+  padding: 1%;
   background-color: #bec092;
   margin-top: 10px;
   font-family: 'Raleway', sans-serif; }
-  @media (max-width: 768px) {
+  @media (min-width: 375px) {
     .formulario {
-      font-size: 12px;
-      margin-left: auto;
-      margin-right: auto; } }
+      width: 50%;
+      height: 30%; } }
   .formulario .opciones {
     justify-content: space-around;
     width: 20rem;
@@ -161,11 +161,6 @@ section h6 {
   .grid-item:hover {
     filter: opacity(0.9);
     transform: scale(1.04); }
-
-.formulario {
-  background-color: #bec092;
-  margin-top: 10px;
-  font-family: 'Raleway', sans-serif; }
 
 footer {
   background: #ecd6c0;
@@ -233,13 +228,19 @@ footer {
   justify-content: center;
   width: fit-content;
   margin-top: 10px;
-  justify-content: center; }
-  @media (max-width: 768px) {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 20px; }
+  @media (max-width: 375px) {
     .h3-comoadoptar {
       margin: auto;
       font-size: 1em;
       padding: 2%;
-      margin-top: 15px; } }
+      margin-top: 5px; } }
+  @media (min-width: 768px) {
+    .h3-comoadoptar {
+      margin-left: 30%; } }
 
 .h3-index {
   background-color: #e8c39e;
@@ -252,16 +253,17 @@ footer {
   display: flex;
   justify-content: center;
   width: fit-content;
-  margin-top: 10px; }
-  @media (min-width: 320px) {
+  margin-top: 10px;
+  margin-left: 50%; }
+  @media (max-width: 375px) {
     .h3-index {
       margin: auto;
       font-size: 20px;
       padding: 2%; } }
   @media (min-width: 768px) {
     .h3-index {
-      font-size: 30px;
-      margin-left: 30%; } }
+      font-size: 25px;
+      margin-right: 0%; } }
 
 .h2-index {
   background-color: #c0a0c3;
@@ -432,25 +434,26 @@ footer {
       margin-left: auto; } }
 
 .list-group {
-  margin-top: 4px; }
+  margin-top: 15px;
+  width: 70%; }
 
 .list-group-item {
   font-family: 'Raleway', sans-serif;
   font-size: 0.8em;
-  line-height: 1.9em;
+  line-height: 1.8em;
   background-color: #daabb6;
   padding: 1%;
   list-style-position: inside;
   text-align: center;
   text-transform: uppercase;
-  margin-left: 30%;
-  width: 60%; }
+  margin-left: 0%;
+  width: 80%; }
   @media (max-width: 375px) {
     .list-group-item {
       font-size: 12px; } }
   @media (min-width: 768px) {
     .list-group-item {
-      font-size: 20px; } }
+      font-size: 18px; } }
 
 .list-group-item-comoadoptar {
   font-family: 'Raleway', sans-serif;
@@ -461,8 +464,15 @@ footer {
   background-color: #daabb6;
   padding: 1%;
   list-style-position: inside;
-  margin-left: 28%;
+  margin-left: 50%;
   width: 55%; }
+  @media (max-width: 375px) {
+    .list-group-item-comoadoptar {
+      width: 50%;
+      margin-left: 25%; } }
+  @media (max-width: 768px) {
+    .list-group-item-comoadoptar {
+      margin-left: 20%; } }
 
 .seccion-principal {
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -518,8 +528,8 @@ footer {
       height: 150px; } }
   @media (min-width: 768px) {
     .imagen-carousel {
-      width: 300px;
-      height: 250px; } }
+      width: 350px;
+      height: 220px; } }
 
 .btn {
   font-family: 'Raleway', sans-serif;
@@ -545,13 +555,7 @@ footer {
       height: 200px;
       margin-left: 12%;
       border: none; } }
-  @media (max-width: 425px) {
-    .mapa {
-      width: 300px;
-      height: 200px;
-      margin-left: 15%;
-      border: none; } }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     .mapa {
       width: 350px;
       height: 200px;
