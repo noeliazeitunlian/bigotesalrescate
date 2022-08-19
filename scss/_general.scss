@@ -14,16 +14,6 @@ body{
 }   
 
 
-
-.formulario{
-    background-color:map-get($colores,"color-cuarto");
-    margin-top: 10px;
-    font-family:'Raleway', sans-serif;
-
-}
-
-
-
 .container{
     margin:auto;
     justify-content: center;
@@ -32,17 +22,6 @@ body{
 }
 
 
-
-.resaltar{
-    margin:{
-        top: 2%;
-        left: 30%;
-        right: 25%;
-    }
-    text-align: center;
-    justify-content: center;
-    font-weight: bold;
-}
 
 
 
@@ -119,6 +98,10 @@ body{
 }
 
 @media(max-width:375px){
+    .list-group-item-comoadoptar{
+        font-size: 5px;
+    }
+    
     .footer-ultimo{
         font-size: 12px;
     }

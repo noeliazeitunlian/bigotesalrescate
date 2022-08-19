@@ -12,18 +12,3 @@
     animation: flash; 
     animation-duration: 2s;
 }
-
-%seccion-mobile{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 1.6em;
-    letter-spacing:2.5px;
-    color: map-get($colores,"color-texto");
-    padding: 2px;
-    margin-right:auto;
-    height:min-content;
-    width:15%;
-    display:flex;
-    justify-content: center;
-    animation: flash; 
-    animation-duration: 2s;
-}

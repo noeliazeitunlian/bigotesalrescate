@@ -4,21 +4,27 @@
 
 .h3-comoadoptar{
     @include titulo-h3(#ccaa88,1.7em);
+    justify-content: center;
     @media (max-width:768px) {
         margin:auto;
         font-size: 1em;
         padding: 2%;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 }
 
 .h3-index{
     @include titulo-h3(#e8c39e,2em);
 
-    @media (max-width:375px) {
+    @media (min-width:320px) {
         margin:auto;
-        font-size: 1em;
+        font-size: 20px;
         padding: 2%;
+    }
+
+    @media(min-width:768px){
+        font-size: 30px;
+        margin-left:30%;
     }
 }
 
@@ -28,6 +34,7 @@
     @media (max-width:375px) {
         font-size: 1em;
         padding: 1%;
+
     }
 }
 
@@ -48,30 +55,11 @@
     text-align: left;
 }
 
-.seccion-infoutil{
-    @extend %seccion;
-    background-color:#e3b1c8;
-}
-
-.seccion-inicio{
+.seccion-principal{
     @extend %seccion;
     background-color: #e3b1c8;
 }
 
-.seccion-comoadoptar{
-    @extend %seccion;
-    background-color:#e3b1c8;
-}
-
-.seccion-quienessomos{
-    @extend %seccion;
-    background-color:#e3b1c8;
-}
-
-.seccion-rescatados{
-    @extend %seccion;
-    background-color:#e3b1c8;
-}
 
 .h2{
     background-color: map-get($colores,"color-secundario");
@@ -79,10 +67,19 @@
 
 .h5-titulo{
     font-family: 'Bebas Neue', cursive;
+    background-color: #c0a0c3;
+    width: 50%;
+    margin: auto;
     font-size: 2em;
     letter-spacing: 3.5px;
     text-align: center;
     margin-top: 5px;
+    margin-bottom:10px;
+
+    @media(max-width:375px)
+    {
+        font-size: 1.5em;
+    }
 
 }
 
@@ -102,5 +99,15 @@
     padding:auto;
     letter-spacing: 1px;
     font-family:'Raleway', sans-serif;
+}
 
+.resaltar{
+    margin:{
+        top: 2%;
+        left: 30%;
+        right: 25%;
+    }
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
 }

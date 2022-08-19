@@ -32,3 +32,48 @@
     }
 }
 
+.list-group{
+    margin-top:4px;
+
+   
+}
+.list-group-item{
+    font-family:'Raleway', sans-serif;
+    font-size: 0.8em;  
+     line-height: 1.9em;
+     background-color:map-get($colores,"color-terciario");
+     padding:1%;
+     list-style-position: inside;
+     text-align: center;
+     text-transform: uppercase;
+     margin-left: 30%;
+     width: 60%;
+
+     @media (max-width:375px){
+        font-size: 12px;
+    }
+
+    @media (min-width:768px){
+        font-size: 20px;
+    }
+
+ }
+
+ 
+.list-group-item-comoadoptar{
+    font:{
+        family:'Raleway', sans-serif;
+        size: 0.8em; 
+    } 
+
+    text:{
+        align: center;
+        transform: uppercase;
+    }
+     line-height: 1.9em;
+     background-color:map-get($colores,"color-terciario");
+     padding:1%;
+     list-style-position: inside;
+     margin-left: 28%;
+     width: 55%;
+ }

@@ -1,4 +1,4 @@
-.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
+.seccion-principal {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.2em;
   letter-spacing: 2.5px;
@@ -21,24 +21,11 @@ body {
   background: #ffe6df;
   overflow-x: hidden; }
 
-.formulario {
-  background-color: #bec092;
-  margin-top: 10px;
-  font-family: 'Raleway', sans-serif; }
-
 .container {
   margin: auto;
   justify-content: center;
   width: 300px;
   height: 300px; }
-
-.resaltar {
-  margin-top: 2%;
-  margin-left: 30%;
-  margin-right: 25%;
-  text-align: center;
-  justify-content: center;
-  font-weight: bold; }
 
 @media (max-width: 768px) {
   .body {
@@ -84,6 +71,8 @@ body {
     height: fit-content; } }
 
 @media (max-width: 375px) {
+  .list-group-item-comoadoptar {
+    font-size: 5px; }
   .footer-ultimo {
     font-size: 12px; }
   .div-infoutil {
@@ -99,18 +88,6 @@ body {
   margin: auto;
   width: 30%; }
 
-.list-group-item {
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.8em;
-  line-height: 1.9em;
-  background-color: #daabb6;
-  padding: 1%;
-  list-style-position: inside;
-  text-align: center;
-  text-transform: uppercase;
-  margin-left: 30%;
-  width: 60%; }
-
 .img-fluid-index {
   width: 350px;
   height: 220px;
@@ -120,9 +97,6 @@ body {
   border-color: #ecd6c0;
   border-width: 5px;
   border-style: solid; }
-
-.btn {
-  background-color: #daabb6; }
 
 .imagen_gatitoadoptante {
   width: 350px;
@@ -136,7 +110,7 @@ body {
 
 .formulario {
   padding: 1%;
-  margin-left: 20%;
+  margin-left: 30%;
   margin-right: 20%;
   background-color: #bec092;
   margin-top: 10px;
@@ -188,6 +162,11 @@ section h6 {
     filter: opacity(0.9);
     transform: scale(1.04); }
 
+.formulario {
+  background-color: #bec092;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif; }
+
 footer {
   background: #ecd6c0;
   margin: auto;
@@ -228,7 +207,7 @@ footer {
 .nav-link:hover {
   background-color: #bf9780; }
 
-.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
+.seccion-principal {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.2em;
   letter-spacing: 2.5px;
@@ -249,18 +228,18 @@ footer {
   color: rgba(0, 0, 0, 0.875);
   letter-spacing: 2.5px;
   padding: 20px;
-  margin-left: auto;
   height: fit-content;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   width: fit-content;
-  margin-top: 10px; }
+  margin-top: 10px;
+  justify-content: center; }
   @media (max-width: 768px) {
     .h3-comoadoptar {
       margin: auto;
       font-size: 1em;
       padding: 2%;
-      margin-top: 10px; } }
+      margin-top: 15px; } }
 
 .h3-index {
   background-color: #e8c39e;
@@ -269,17 +248,20 @@ footer {
   color: rgba(0, 0, 0, 0.875);
   letter-spacing: 2.5px;
   padding: 20px;
-  margin-left: auto;
   height: fit-content;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   width: fit-content;
   margin-top: 10px; }
-  @media (max-width: 375px) {
+  @media (min-width: 320px) {
     .h3-index {
       margin: auto;
-      font-size: 1em;
+      font-size: 20px;
       padding: 2%; } }
+  @media (min-width: 768px) {
+    .h3-index {
+      font-size: 30px;
+      margin-left: 30%; } }
 
 .h2-index {
   background-color: #c0a0c3;
@@ -330,19 +312,7 @@ footer {
   text-transform: uppercase;
   text-align: left; }
 
-.seccion-infoutil {
-  background-color: #e3b1c8; }
-
-.seccion-inicio {
-  background-color: #e3b1c8; }
-
-.seccion-comoadoptar {
-  background-color: #e3b1c8; }
-
-.seccion-quienessomos {
-  background-color: #e3b1c8; }
-
-.seccion-rescatados {
+.seccion-principal {
   background-color: #e3b1c8; }
 
 .h2 {
@@ -350,10 +320,17 @@ footer {
 
 .h5-titulo {
   font-family: 'Bebas Neue', cursive;
+  background-color: #c0a0c3;
+  width: 50%;
+  margin: auto;
   font-size: 2em;
   letter-spacing: 3.5px;
   text-align: center;
-  margin-top: 5px; }
+  margin-top: 5px;
+  margin-bottom: 10px; }
+  @media (max-width: 375px) {
+    .h5-titulo {
+      font-size: 1.5em; } }
 
 .titulo_ley {
   font-family: 'Bebas Neue', cursive;
@@ -371,7 +348,15 @@ footer {
   letter-spacing: 1px;
   font-family: 'Raleway', sans-serif; }
 
-.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
+.resaltar {
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 25%;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold; }
+
+.seccion-principal {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.2em;
   letter-spacing: 2.5px;
@@ -385,7 +370,7 @@ footer {
   animation: flash;
   animation-duration: 2s; }
 
-.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
+.seccion-principal {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.2em;
   letter-spacing: 2.5px;
@@ -446,7 +431,40 @@ footer {
       margin-left: 0px;
       margin-left: auto; } }
 
-.seccion-infoutil, .seccion-inicio, .seccion-comoadoptar, .seccion-quienessomos, .seccion-rescatados {
+.list-group {
+  margin-top: 4px; }
+
+.list-group-item {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  line-height: 1.9em;
+  background-color: #daabb6;
+  padding: 1%;
+  list-style-position: inside;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 30%;
+  width: 60%; }
+  @media (max-width: 375px) {
+    .list-group-item {
+      font-size: 12px; } }
+  @media (min-width: 768px) {
+    .list-group-item {
+      font-size: 20px; } }
+
+.list-group-item-comoadoptar {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.9em;
+  background-color: #daabb6;
+  padding: 1%;
+  list-style-position: inside;
+  margin-left: 28%;
+  width: 55%; }
+
+.seccion-principal {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.2em;
   letter-spacing: 2.5px;
@@ -491,16 +509,31 @@ footer {
   font-family: 'Raleway', sans-serif;
   font-size: 13px; }
 
+.imagen-carousel {
+  width: 500px;
+  height: 500px; }
+  @media (max-width: 768px) {
+    .imagen-carousel {
+      width: 200px;
+      height: 150px; } }
+  @media (min-width: 768px) {
+    .imagen-carousel {
+      width: 300px;
+      height: 250px; } }
+
 .btn {
   font-family: 'Raleway', sans-serif;
   margin-left: 43%;
-  margin-top: 20px; }
-  @media (max-width: 375px) {
+  margin-top: 20px;
+  background-color: #daabb6; }
+  @media (max-width: 425px) {
     .btn {
-      width: 100px;
+      width: fit-content;
+      height: fit-content;
       font-size: 15px;
-      margin-left: 10%;
-      border: none; } }
+      margin-left: 35%;
+      border: none;
+      padding: 1%; } }
 
 .mapa {
   width: 520px;
@@ -508,6 +541,24 @@ footer {
   margin-left: 35%; }
   @media (max-width: 375px) {
     .mapa {
-      width: 200px;
+      width: 300px;
+      height: 200px;
+      margin-left: 12%;
+      border: none; } }
+  @media (max-width: 425px) {
+    .mapa {
+      width: 300px;
+      height: 200px;
       margin-left: 15%;
       border: none; } }
+  @media (max-width: 768px) {
+    .mapa {
+      width: 350px;
+      height: 200px;
+      margin-left: 35%;
+      border: none; } }
+
+.img-fluid {
+  width: 50%;
+  height: 60%;
+  margin-left: 20%; }
