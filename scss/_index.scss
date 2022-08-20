@@ -19,6 +19,10 @@
         width: 5px;
         style: solid;
     }
+
+    @media(max-width:768px){
+        display:none;
+    }
 }
 
 .imagen_gatitoadoptante{

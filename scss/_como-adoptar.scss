@@ -1,24 +1,20 @@
 @import './mixins';
 .formulario{
-    width: 50%;
-    height: 50%;
-    margin-left: 30%;
     padding:1%;
     background-color:map-get($colores,"color-cuarto");
     margin-top: 10px;
     font-family:'Raleway', sans-serif;
+    width: 60%;
 
-
-    @media(min-width:375px){
-        width:50%;
-        height:30%;
+    @media(max-width:375px){
+        font-size:10px;
     }
 
     .opciones{
         justify-content: space-around;
         width: 20rem;
         margin: 0.75rem 0;
-    }
+}
 }
 
 section{

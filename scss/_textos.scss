@@ -6,19 +6,14 @@
     @include titulo-h3(#ccaa88,1.7em);
     justify-content: center;
     text-align: center;
-    
     margin-bottom: 25px;
     margin-top: 20px;
 
-    @media (max-width:375px) {
+    @media (max-width:768px) {
         margin:auto;
         font-size: 1em;
         padding: 2%;
         margin-top: 5px;
-    }
-
-    @media(min-width:768px){
-        margin-left: 30%;
     }
 
    }
@@ -28,23 +23,19 @@
     @include titulo-h3(#e8c39e,2em);
         margin-left: 50%;
 
-    @media(max-width:375px) {
+    @media(max-width:768px) {
         margin:auto;
-        font-size: 20px;
+        font-size: 18px;
         padding: 2%;
     }
 
-    @media(min-width:768px){
-        font-size: 25px;
-        margin-right:0%;
-    }
 }
 
 
 .h2-index{
     @include titulo-h2(#c0a0c3,1.6em);
-    @media (max-width:375px) {
-        font-size: 1em;
+    @media (max-width:768px) {
+        font-size:20px;
         padding: 1%;
     }
 }

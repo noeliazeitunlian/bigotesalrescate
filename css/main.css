@@ -4,7 +4,7 @@
   letter-spacing: 2.5px;
   color: rgba(0, 0, 0, 0.799);
   padding: 15px;
-  margin-right: auto;
+  margin-left: 1px;
   height: fit-content;
   width: fit-content;
   display: flex;
@@ -21,45 +21,21 @@ body {
   background: #ffe6df;
   overflow-x: hidden; }
 
-.container {
-  margin: auto;
-  justify-content: center;
-  width: 300px;
-  height: 300px; }
-
+/*.container{
+    margin:auto;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}*/
 @media (max-width: 768px) {
-  .body {
-    overflow-x: hidden; }
-  .seccion-incio {
-    display: none;
-    margin: auto; }
   .img-fluid-index {
     display: none; }
   .listado_requisitos {
-    font-size: 12px;
-    margin-right: 20%; }
+    font-size: 12px; }
   .list-group {
-    height: 70%;
-    width: 60%;
-    margin-left: 20%;
-    font-size: 15px;
-    text-align: center;
-    justify-content: center; }
-  .list-group-item {
-    height: 50%;
-    width: auto; }
+    font-size: 13px; }
   .container-footer {
     background-color: #ecd6c0; }
-  .row {
-    font-size: 12px;
-    overflow-x: hidden;
-    margin-left: 20%;
-    text-align: center;
-    width: 50%;
-    height: 50%; }
-  .col-4 {
-    margin: auto;
-    width: 60%; }
   .titulo_ley {
     font-size: 1.2em; }
   .texto_rescatista {
@@ -97,6 +73,9 @@ body {
   border-color: #ecd6c0;
   border-width: 5px;
   border-style: solid; }
+  @media (max-width: 768px) {
+    .img-fluid-index {
+      display: none; } }
 
 .imagen_gatitoadoptante {
   width: 350px;
@@ -109,17 +88,14 @@ body {
   border-style: solid; }
 
 .formulario {
-  width: 50%;
-  height: 50%;
-  margin-left: 30%;
   padding: 1%;
   background-color: #bec092;
   margin-top: 10px;
-  font-family: 'Raleway', sans-serif; }
-  @media (min-width: 375px) {
+  font-family: 'Raleway', sans-serif;
+  width: 60%; }
+  @media (max-width: 375px) {
     .formulario {
-      width: 50%;
-      height: 30%; } }
+      font-size: 10px; } }
   .formulario .opciones {
     justify-content: space-around;
     width: 20rem;
@@ -208,7 +184,7 @@ footer {
   letter-spacing: 2.5px;
   color: rgba(0, 0, 0, 0.799);
   padding: 15px;
-  margin-right: auto;
+  margin-left: 1px;
   height: fit-content;
   width: fit-content;
   display: flex;
@@ -232,15 +208,12 @@ footer {
   text-align: center;
   margin-bottom: 25px;
   margin-top: 20px; }
-  @media (max-width: 375px) {
+  @media (max-width: 768px) {
     .h3-comoadoptar {
       margin: auto;
       font-size: 1em;
       padding: 2%;
       margin-top: 5px; } }
-  @media (min-width: 768px) {
-    .h3-comoadoptar {
-      margin-left: 30%; } }
 
 .h3-index {
   background-color: #e8c39e;
@@ -255,15 +228,11 @@ footer {
   width: fit-content;
   margin-top: 10px;
   margin-left: 50%; }
-  @media (max-width: 375px) {
+  @media (max-width: 768px) {
     .h3-index {
       margin: auto;
-      font-size: 20px;
+      font-size: 18px;
       padding: 2%; } }
-  @media (min-width: 768px) {
-    .h3-index {
-      font-size: 25px;
-      margin-right: 0%; } }
 
 .h2-index {
   background-color: #c0a0c3;
@@ -276,9 +245,9 @@ footer {
   justify-content: center;
   text-align: center;
   margin-left: 25%; }
-  @media (max-width: 375px) {
+  @media (max-width: 768px) {
     .h2-index {
-      font-size: 1em;
+      font-size: 20px;
       padding: 1%; } }
 
 .h2-rescatados {
@@ -364,7 +333,7 @@ footer {
   letter-spacing: 2.5px;
   color: rgba(0, 0, 0, 0.799);
   padding: 15px;
-  margin-right: auto;
+  margin-left: 1px;
   height: fit-content;
   width: fit-content;
   display: flex;
@@ -378,7 +347,7 @@ footer {
   letter-spacing: 2.5px;
   color: rgba(0, 0, 0, 0.799);
   padding: 15px;
-  margin-right: auto;
+  margin-left: 1px;
   height: fit-content;
   width: fit-content;
   display: flex;
@@ -434,8 +403,7 @@ footer {
       margin-left: auto; } }
 
 .list-group {
-  margin-top: 15px;
-  width: 70%; }
+  margin-top: 25px; }
 
 .list-group-item {
   font-family: 'Raleway', sans-serif;
@@ -445,15 +413,13 @@ footer {
   padding: 1%;
   list-style-position: inside;
   text-align: center;
-  text-transform: uppercase;
-  margin-left: 0%;
-  width: 80%; }
+  text-transform: uppercase; }
   @media (max-width: 375px) {
     .list-group-item {
       font-size: 12px; } }
   @media (min-width: 768px) {
     .list-group-item {
-      font-size: 18px; } }
+      font-size: 15px; } }
 
 .list-group-item-comoadoptar {
   font-family: 'Raleway', sans-serif;
@@ -480,7 +446,7 @@ footer {
   letter-spacing: 2.5px;
   color: rgba(0, 0, 0, 0.799);
   padding: 15px;
-  margin-right: auto;
+  margin-left: 1px;
   height: fit-content;
   width: fit-content;
   display: flex;

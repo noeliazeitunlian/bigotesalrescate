@@ -33,12 +33,9 @@
 }
 
 .list-group{
-    margin-top:15px;
-    width:70%;
-    
-
-   
+    margin-top:25px;
 }
+
 .list-group-item{
     font-family:'Raleway', sans-serif;
     font-size: 0.8em;  
@@ -48,15 +45,13 @@
      list-style-position: inside;
      text-align: center;
      text-transform: uppercase;
-     margin-left:0%;
-     width: 80%;
 
      @media (max-width:375px){
         font-size: 12px;
     }
 
     @media (min-width:768px){
-        font-size: 18px;
+        font-size: 15px;
     }
 
  }
