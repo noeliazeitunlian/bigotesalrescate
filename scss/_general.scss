@@ -14,51 +14,6 @@ body{
 }   
 
 
-/*.container{
-    margin:auto;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-}*/
-
-
-@media(max-width:768px) {
-
-    .img-fluid-index{
-        display: none;
-    }
-
-    .listado_requisitos{
-        font-size:12px;
-        
-    }
-
-    .list-group{
-        font-size: 13px;
-    }
-
-    .container-footer{
-        background-color:#ecd6c0;
-    }
-
-     .titulo_ley{
-        font-size: 1.2em;
-     }
-     
-     .texto_rescatista{
-        font-size: 13px;
-     }
-
-     .resaltar{
-        font-size:15px;
-     }
-
-     .container{
-        width: fit-content;
-        height: fit-content;
-     }
-}
-
 @media(max-width:375px){
     .list-group-item-comoadoptar{
         font-size: 5px;
@@ -67,7 +22,7 @@ body{
     .footer-ultimo{
         font-size: 12px;
     }
-
+}
 
 @media(max-width:768px) {
     .body{
@@ -75,7 +30,6 @@ body{
     }
     .seccion-incio{
         display: none;
-        margin: auto;
     }
 
     .img-fluid-index{
@@ -100,27 +54,14 @@ body{
         
         height:50%;
         width: auto;
-        
-
-    }
-    .container-footer{
-        background-color:#ecd6c0;
     }
 
-    .row{
+    .position-image{
         font-size: 12px;
         overflow-x: hidden;
-        margin-left: 20%;
         text-align: center;
-        width: 50%;
-        height: 50%;
-
+        
     }
-
-    .col-4{
-        margin: auto;
-        width: 60%;
-     }
 
      .titulo_ley{
         font-size: 1.2em;
@@ -133,28 +74,6 @@ body{
      .resaltar{
         font-size:15px;
      }
-
-     .container{
-        width: fit-content;
-        height: fit-content;
-     }
 }
 
-@media(max-width:375px){
-    .footer-ultimo{
-        font-size: 12px;
-    }
 
-    .div-infoutil{
-        width: 375px;
-        height: auto;
-    }
-
-    .img-fluid{
-        width: 250px;
-        height: 250px;
-        align-items: center;
-        justify-content: center;
-
-    }
-}

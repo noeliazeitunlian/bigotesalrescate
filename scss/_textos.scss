@@ -15,22 +15,19 @@
         padding: 2%;
         margin-top: 5px;
     }
-
    }
 
 
 .h3-index{
-    @include titulo-h3(#e8c39e,2em);
-        margin-left: 50%;
+    @include titulo-h3(#e8c39e,25px);
+    margin-left:40%;    
 
     @media(max-width:768px) {
         margin:auto;
-        font-size: 18px;
+        font-size: 15px;
         padding: 2%;
     }
-
 }
-
 
 .h2-index{
     @include titulo-h2(#c0a0c3,1.6em);
