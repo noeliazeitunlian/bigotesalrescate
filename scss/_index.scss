@@ -3,6 +3,9 @@
 
 .position-image{
     margin-left:35%;
+    @media(max-width:768px){
+        margin-left:10%;
+    }
  }
  
  .img-fluid-index{
