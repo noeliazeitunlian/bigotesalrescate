@@ -40,6 +40,7 @@
 
 .h2-rescatados{
     @include titulo-h2(#bec092,1.5em);
+
     @media(max-width:375px){
         font-size: 1em;
         width:auto;
@@ -52,7 +53,6 @@
 .h2-quienessomos{
     @include titulo-h2(#bec092,1.5em);
     text-transform: uppercase;
-    text-align: left;
 }
 
 .seccion-principal{
@@ -80,7 +80,6 @@
     {
         font-size: 1.5em;
     }
-
 }
 
 .titulo_ley{
@@ -95,17 +94,14 @@
     font-size:13px;
     text-align: center;
     justify-content: center;
-    margin:0;
-    padding:auto;
     letter-spacing: 1px;
     font-family:'Raleway', sans-serif;
 }
 
 .resaltar{
+    font-size: 20px;
     margin:{
         top: 2%;
-        left: 30%;
-        right: 25%;
     }
     text-align: center;
     justify-content: center;

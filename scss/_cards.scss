@@ -55,6 +55,7 @@
 }
 .btn{
     font-family: 'Raleway', sans-serif;
+    width:fit-content;
     margin-left: 43%;
     margin-top:20px;
     background-color:map-get($colores,"color-terciario");
@@ -72,27 +73,24 @@
 .mapa{
     width: 520px;
     height: 250px;
-    margin-left: 35%;
 
     @media (max-width:375px){
         width:300px;
         height:200px;
-        margin-left:12%;
+        margin-left:10%;
         border: none;
     }
 
     @media (min-width:768px){
-        width:350px;
-        height:200px;
-        margin-left:35%;
+    
+        margin-left:30%;
         border: none;
     }
 
 }
 
-
 .img-fluid{
     width: 50%;
-    height: 60%;
-    margin-left: 20%;
+    height: 30%;
+    margin-left:25%;
 }

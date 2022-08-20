@@ -276,8 +276,7 @@ footer {
   justify-content: center;
   text-align: center;
   margin-left: 25%;
-  text-transform: uppercase;
-  text-align: left; }
+  text-transform: uppercase; }
 
 .seccion-principal {
   background-color: #e3b1c8; }
@@ -310,15 +309,12 @@ footer {
   font-size: 13px;
   text-align: center;
   justify-content: center;
-  margin: 0;
-  padding: auto;
   letter-spacing: 1px;
   font-family: 'Raleway', sans-serif; }
 
 .resaltar {
+  font-size: 20px;
   margin-top: 2%;
-  margin-left: 30%;
-  margin-right: 25%;
   text-align: center;
   justify-content: center;
   font-weight: bold; }
@@ -350,28 +346,28 @@ footer {
   animation-duration: 2s; }
 
 .listado-infoutil {
+  font-family: 'Raleway', sans-serif;
   background-color: #c0a0c3;
-  font-size: 1.3em;
+  font-size: 16px;
   padding: 2%;
-  text-align: left;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
   letter-spacing: 1.8px;
   line-height: 1.9em;
   width: fit-content;
   height: fit-content;
   list-style-position: inside;
-  margin-top: 10px; }
+  margin-top: 10px;
+  text-transform: uppercase; }
   @media (max-width: 768px) {
     .listado-infoutil {
       width: fit-content;
-      font-size: 16px;
+      font-size: 15px;
       letter-spacing: 1px;
       margin: auto;
-      text-align: left;
+      text-align: center;
+      justify-content: center;
       margin-top: 5px;
-      background-color: #c0a0c3;
-      margin-left: 0px;
-      margin-left: auto; } }
+      background-color: #c0a0c3; } }
 
 .list-group {
   margin-top: 30px; }
@@ -469,6 +465,7 @@ footer {
 
 .btn {
   font-family: 'Raleway', sans-serif;
+  width: fit-content;
   margin-left: 43%;
   margin-top: 20px;
   background-color: #daabb6; }
@@ -483,22 +480,19 @@ footer {
 
 .mapa {
   width: 520px;
-  height: 250px;
-  margin-left: 35%; }
+  height: 250px; }
   @media (max-width: 375px) {
     .mapa {
       width: 300px;
       height: 200px;
-      margin-left: 12%;
+      margin-left: 10%;
       border: none; } }
   @media (min-width: 768px) {
     .mapa {
-      width: 350px;
-      height: 200px;
-      margin-left: 35%;
+      margin-left: 30%;
       border: none; } }
 
 .img-fluid {
   width: 50%;
-  height: 60%;
-  margin-left: 20%; }
+  height: 30%;
+  margin-left: 25%; }

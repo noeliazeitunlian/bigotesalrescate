@@ -26,17 +26,18 @@
 }
 
 @mixin listado_requisitos($bgColor,$align,$padding,$fontSize){
+    font-family:'Raleway', sans-serif;
     background-color: $bgColor;
     font-size: $fontSize;
     padding: $padding;
     text-align: $align;
-    font-family:'Yanone Kaffeesatz', sans-serif;
     letter-spacing: 1.8px;
     line-height: 1.9em;
     width:fit-content;
     height:fit-content;
     list-style-position: inside;
     margin-top: 10px;
+    text-transform: uppercase;
 }
 
 
