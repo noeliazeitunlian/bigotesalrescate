@@ -13,6 +13,63 @@ body{
     overflow-x: hidden;
 }   
 
+.logo{
+    width: 75px;
+    height: 75px;
+} 
+
+.navbar-collapse{
+    flex-grow: end;
+}
+
+.container-fluid{
+    background-color:map-get($colores,"color-principal");
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+}
+
+.nav-link:hover{
+    background-color:#bf9780;
+}
+
+footer{
+    background:map-get($colores,"color-principal");
+    margin: auto;
+    min-height: 100%;
+    margin-top: 1rem;
+
+   .h4-footer{
+            
+            font-family:'Bebas Neue', cursive;
+            font-size:25px;
+            color: rgba(0, 0, 0, 0.875);
+            letter-spacing:2.5px;
+            text-align: center;
+            padding: 1%;
+
+            @media(max-width:375px){
+                font-size:15px;
+            }
+
+            @media(max-width:768px){
+                font-size:1em;
+            }
+    }
+
+    .texto-footer{
+        font-size:20px;
+        text-align: center;
+
+    }
+    .footer-ultimo{
+        font-size: 16px;
+        text-align: center;
+        margin-top: 2%;
+    }
+}
+
+
+
 
 @media(max-width:375px){
     .list-group-item-comoadoptar{

@@ -3,7 +3,7 @@
 @import './base/variables';
 
 .listado-infoutil{
-    @include listado_requisitos(#c0a0c3,center,2%,16px);
+    @include listado_requisitos(#c0a0c3,center,0%,16px);
 
     @media(max-width:768px){
         width: fit-content;
