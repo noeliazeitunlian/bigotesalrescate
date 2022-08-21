@@ -4,17 +4,6 @@
 
 .listado-infoutil{
     @include listado_requisitos(#c0a0c3,center,0%,16px);
-
-    @media(max-width:768px){
-        width: fit-content;
-        font-size: 15px;
-        letter-spacing:1px;
-        margin: auto;
-        text-align:center;
-        justify-content: center;
-        margin-top: 5px;
-        background-color: #c0a0c3;
-    }
 }
 
 .list-group{
@@ -22,30 +11,23 @@
 }
 
 .list-group-item{
-    font-family:'Raleway', sans-serif;
-    font-size: 0.8em;  
+     font:{
+        family:'Raleway', sans-serif;
+        size: 0.9em;  
+     }
      line-height: 1.8em;
      background-color:map-get($colores,"color-terciario");
      list-style-position: inside;
-     text-align: center;
-     text-transform: uppercase;
-
-
-    @media (max-width:375px){
-        font-size: 12px;
+    text:{
+        align: center;
+        transform: uppercase;
     }
-
-    @media (min-width:768px){
-        font-size: 15px;
-    }
-
  }
 
- 
 .list-group-item-comoadoptar{
     font:{
         family:'Raleway', sans-serif;
-        size: 0.8em; 
+        size: 0.9em; 
     } 
 
     text:{
@@ -53,18 +35,7 @@
         transform: uppercase;
     }
      line-height: 1.9em;
-     background-color:map-get($colores,"color-terciario");
-     padding:1%;
+     background-color:map-get($colores,"color-terciario");;
      list-style-position: inside;
-     margin-left:30%;
-
-    @media(max-width:375px){
-        font-size: 10px;
-    }
-
-    @media(max-width:768px){
-        margin-left:30%;
-
-    }
-        
-    }
+     margin-left:10%;
+}

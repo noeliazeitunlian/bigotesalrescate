@@ -9,45 +9,20 @@
     margin-bottom: 25px;
     margin-top: 20px;
     margin-left: 40%;
-
-    @media (max-width:768px) {
-        margin:auto;
-        font-size: 1em;
-        padding: 2%;
-        margin-top: 5px;
-    }
    }
-
 
 .h3-index{
     @include titulo-h3(#e8c39e,25px);
     margin-left:40%;    
-
-    @media(max-width:768px) {
-        margin:auto;
-        font-size: 15px;
-        padding: 2%;
-    }
 }
 
 .h2-index{
-    @include titulo-h2(#c0a0c3,1.6em);
-    @media (max-width:768px) {
-        font-size:20px;
-        padding: 1%;
-    }
+    @include titulo-h2(#c0a0c3,1.5em);
+
 }
 
 .h2-rescatados{
     @include titulo-h2(#bec092,1.5em);
-
-    @media(max-width:375px){
-        font-size: 1em;
-        width:auto;
-        margin-top:10px;
-        margin-right:15%;
-        padding:auto;
-    }
 }
 
 .h2-quienessomos{
@@ -60,38 +35,39 @@
     background-color: #d397b3;
 }
 
-
 .h2{
     background-color: map-get($colores,"color-secundario");
 }
 
 .h5-titulo{
     font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
     background-color: #c0a0c3;
     width: 50%;
-    margin: auto;
-    font-size: 2em;
     letter-spacing: 3.5px;
     text-align: center;
-    margin-top: 5px;
-    margin-bottom:10px;
-
-    @media(max-width:375px)
-    {
-        font-size: 1.5em;
+    margin: auto;
+    margin:{
+        top: 5px;
+        bottom:10px;
     }
 }
 
 .titulo_ley{
     font-family: 'Bebas Neue', cursive;
+    font-size:25px;
     color: #008f6d;
     justify-content: center;
-    text-align: center;
-    text-decoration: underline;
+    
+    text:{
+        align: center;
+        decoration: underline;
+        -moz-animation:alternate;
+    }
 }
 
 .parrafo{
-    font-size:13px;
+    font-size:14px;
     text-align: center;
     justify-content: center;
     letter-spacing: 1px;
