@@ -2,15 +2,6 @@
 @import './extends';
 @import './base/variables';
 
-.h3-comoadoptar{
-    @include titulo-h3(#ccaa88,1.7em);
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 25px;
-    margin-top: 20px;
-    margin-left: 40%;
-   }
-
 .h3-index{
     @include titulo-h3(#e8c39e,25px);
     margin-left:40%;    
@@ -26,7 +17,7 @@
 }
 
 .h2-quienessomos{
-    @include titulo-h2(#bec092,1.5em);
+    @include titulo-h2(#ccaa88,1.5em);
     text-transform: uppercase;
 }
 
@@ -43,7 +34,7 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 2em;
     background-color: #c0a0c3;
-    width: 50%;
+    width:20%;
     letter-spacing: 3.5px;
     text-align: center;
     margin: auto;

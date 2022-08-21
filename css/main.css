@@ -205,24 +205,6 @@ section h6 {
   animation: flash;
   animation-duration: 2s; }
 
-.h3-comoadoptar {
-  background-color: #ccaa88;
-  font-size: 1.7em;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: rgba(0, 0, 0, 0.875);
-  letter-spacing: 2.5px;
-  padding: 20px;
-  height: fit-content;
-  display: flex;
-  justify-content: center;
-  width: fit-content;
-  margin-top: 10px;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 25px;
-  margin-top: 20px;
-  margin-left: 40%; }
-
 .h3-index {
   background-color: #e8c39e;
   font-size: 25px;
@@ -262,7 +244,7 @@ section h6 {
   margin-left: 20%; }
 
 .h2-quienessomos {
-  background-color: #bec092;
+  background-color: #ccaa88;
   font-size: 1.5em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   letter-spacing: 2.5px;
@@ -284,7 +266,7 @@ section h6 {
   font-family: 'Bebas Neue', cursive;
   font-size: 2em;
   background-color: #c0a0c3;
-  width: 50%;
+  width: 20%;
   letter-spacing: 3.5px;
   text-align: center;
   margin: auto;
@@ -371,8 +353,7 @@ section h6 {
   text-transform: uppercase;
   line-height: 1.9em;
   background-color: #daabb6;
-  list-style-position: inside;
-  margin-left: 10%; }
+  list-style-position: inside; }
 
 .seccion-principal {
   font-family: 'Yanone Kaffeesatz', sans-serif;
